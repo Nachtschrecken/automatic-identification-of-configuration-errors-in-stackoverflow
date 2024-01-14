@@ -1,0 +1,63 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Background}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}System Configuration}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Configuration Errors}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Tackling Configuration Errors}{7}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Word2Vec \& SVM}{9}{section.2.4}%
+\contentsline {subsubsection}{Word2Vec}{9}{section*.2}%
+\contentsline {subsubsection}{Support Vector Machine}{10}{section*.3}%
+\contentsline {section}{\numberline {2.5}LLM \& Prompt Engineering}{10}{section.2.5}%
+\contentsline {subsubsection}{GPT-3.5}{10}{section*.4}%
+\contentsline {subsubsection}{Prompt Engineering}{11}{section*.5}%
+\contentsline {chapter}{\numberline {3}Related Work}{13}{chapter.3}%
+\contentsline {subsubsection}{Challenges in Docker Development: A Large-scale Study Using Stack Overflow}{13}{section*.6}%
+\contentsline {subsubsection}{Dimensions of software configuration: on the configuration context in modern software development}{14}{section*.7}%
+\contentsline {subsubsection}{Systems approaches to tackling configuration errors}{14}{section*.8}%
+\contentsline {subsubsection}{Automatic Identification of Architecture Smell Discussions from Stack Overflow}{15}{section*.9}%
+\contentsline {subsubsection}{Automated Diagnosis of Software Configuration Errors}{16}{section*.10}%
+\contentsline {subsubsection}{Predicting Performance of Software Configurations: There is no Silver Bullet}{16}{section*.11}%
+\contentsline {subsubsection}{Finetuned Language Models Are Zero-Shot Learners}{17}{section*.12}%
+\contentsline {subsubsection}{Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm}{17}{section*.13}%
+\contentsline {chapter}{\numberline {4}Methodology}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Dataset Creation}{20}{section.4.1}%
+\contentsline {subsubsection}{The Data Source}{20}{section*.18}%
+\contentsline {subsubsection}{Collection Criteria}{21}{section*.19}%
+\contentsline {subsubsection}{Preprocessing}{23}{section*.21}%
+\contentsline {section}{\numberline {4.2}Experiment 1: CM-PaCE Approach}{24}{section.4.2}%
+\contentsline {subsubsection}{Word2Vec}{24}{section*.22}%
+\contentsline {subsubsection}{SVM}{27}{section*.23}%
+\contentsline {subsubsection}{The CM-PaCE Model}{30}{section*.24}%
+\contentsline {section}{\numberline {4.3}Experiment 2: LLM Approach}{30}{section.4.3}%
+\contentsline {subsubsection}{API Call \& Functions}{31}{section*.25}%
+\contentsline {subsubsection}{Prompt Engineering}{32}{section*.26}%
+\contentsline {subsubsection}{Result Measuring}{33}{section*.27}%
+\contentsline {section}{\numberline {4.4}Experiment 3: Dataset Analysis}{34}{section.4.4}%
+\contentsline {subsubsection}{Aspects of Analysis}{34}{section*.28}%
+\contentsline {chapter}{\numberline {5}Results}{37}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Experiment 1: CM-PaCE Approach}{37}{section.5.1}%
+\contentsline {subsubsection}{Word2Vec}{37}{section*.29}%
+\contentsline {subsubsection}{SVM}{41}{section*.33}%
+\contentsline {subsubsection}{CM-PaCE}{43}{section*.35}%
+\contentsline {section}{\numberline {5.2}Experiment 2: LLM Approach}{43}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Experiment 3: Dataset Analysis}{45}{section.5.3}%
+\contentsline {subsubsection}{Analysis Results}{46}{section*.39}%
+\contentsline {subsubsection}{Total Result Set}{48}{section*.42}%
+\contentsline {subsubsection}{Positive Documents Result Set}{49}{section*.43}%
+\contentsline {subsubsection}{False Positives Result Set}{49}{section*.44}%
+\contentsline {chapter}{\numberline {6}Discussion}{51}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Comparison CM-PaCE \& LLM}{51}{section.6.1}%
+\contentsline {subsubsection}{CM-PaCE Experiment}{51}{section*.45}%
+\contentsline {subsubsection}{LLM Experiment}{51}{section*.46}%
+\contentsline {subsubsection}{Comparison}{52}{section*.47}%
+\contentsline {section}{\numberline {6.2}Analysis of Configuration Errors using LLM}{53}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Potential Applications of our Method}{54}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Threats to Validity}{55}{section.6.4}%
+\contentsline {subsubsection}{Dataset Creation}{55}{section*.48}%
+\contentsline {subsubsection}{Word2Vec \& SVM Libraries}{56}{section*.49}%
+\contentsline {subsubsection}{Large Language Model}{56}{section*.50}%
+\contentsline {section}{\numberline {6.5}Future Research}{57}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Conclusion}{58}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Methodology Appendix}{60}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Results Appendix}{64}{appendix.B}%
+\contentsline {chapter}{Bibliography}{71}{appendix*.63}%

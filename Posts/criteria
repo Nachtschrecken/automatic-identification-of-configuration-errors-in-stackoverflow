@@ -1,0 +1,28 @@
+AS smells paper criterions adapted to misconfigs
+If a post contained at least one sentence which met one criterion they used it
+
+labelling as positives:
+C1: descritpion of misconfigs, Descriptions of misconfigs by practitioners based on their understanding, configuration files
+C2: cause that lead to misconfigs / presence of error messages by author
+C3: methods to resolve / prevent misconfig, answers to problem
+C4: tools to resolve misconfig
+C5: impact of misconfig on user's system
+C6: challenges in detecting/resolving misconfig
+
+more possible criteria for positives:
+CA: Should the post include answers (or approved answers)?
+
+labelling as negatives:
+C7: not misconfig related topics, post is not about config errors, may include "configuration" in terms of settings for applications
+e.g. "configuring home screen of application" etc
+Completely unrelated or with configuration terms not related to misconfigs?
+Three collections:
+- related to configurations but not misconfigs
+- not related to configurations, from top posts of all SoF
+- not related to configurations, random picks
+
+author's approach to data collection:
+1. extract the URLs of the labelled posts
+2. remove useless URL information in the posts (e.g., http://www.xxx.org/)
+3. parse and extract post information (i.e., titles, questions, and answers)
+4. save the post information into a CSV document

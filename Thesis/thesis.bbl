@@ -1,0 +1,273 @@
+\begin{thebibliography}{45}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Atlassian(2023)]{atlassian:2023}
+Atlassian.
+\newblock Configuration management: Definition and benefits.
+\newblock Atlassian, 2023.
+\newblock URL \url{https://www.atlassian.com/microservices/microservices-architecture/configuration-management}.
+\newblock Accessed: 2023-05-10.
+
+\bibitem[Attariyan and Flinn(2010)]{atta:2010}
+Mona Attariyan and Jason Flinn.
+\newblock Automating configuration troubleshooting with dynamic information flow analysis.
+\newblock In \emph{9th USENIX Symposium on Operating Systems Design and Implementation (OSDI 10)}, 2010.
+
+\bibitem[Bahrini et~al.(2023)Bahrini, Khamoshifar, Abbasimehr, Riggs, Esmaeili, Majdabadkohne, and Pasehvar]{bahrini:2023}
+Aram Bahrini, Mohammadsadra Khamoshifar, Hossein Abbasimehr, Robert~J Riggs, Maryam Esmaeili, Rastin~Mastali Majdabadkohne, and Morteza Pasehvar.
+\newblock Chatgpt: Applications, opportunities, and threats.
+\newblock In \emph{2023 Systems and Information Engineering Design Symposium (SIEDS)}, pages 274--279. IEEE, 2023.
+
+\bibitem[Bellairs(2023)]{bellairs:2023}
+R.~Bellairs.
+\newblock What is static analysis? static code analysis overview.
+\newblock Perforce Software, 2023.
+\newblock URL \url{https://www.perforce.com/blog/sca/what-static-analysis}.
+\newblock Accessed: 2023-07-24.
+
+\bibitem[Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal, Neelakantan, Shyam, Sastry, Askell, et~al.]{brown:2020}
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared~D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et~al.
+\newblock Language models are few-shot learners.
+\newblock \emph{Advances in neural information processing systems}, 33:\penalty0 1877--1901, 2020.
+
+\bibitem[Dong et~al.(2013)Dong, Ghanavati, and Andrzejak]{dong:2013}
+Zhen Dong, Mohammadreza Ghanavati, and Artur Andrzejak.
+\newblock Automated diagnosis of software misconfigurations based on static analysis.
+\newblock In \emph{2013 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)}, pages 162--168. IEEE, 2013.
+
+\bibitem[Franc and Hlav{\'a}c(2002)]{franc:2002}
+Vojtech Franc and V{\'a}clav Hlav{\'a}c.
+\newblock Multi-class support vector machine.
+\newblock In \emph{2002 International Conference on Pattern Recognition}, volume~2, pages 236--239. IEEE, 2002.
+
+\bibitem[{GeeksforGeeks}(2023)]{geeks:2023}
+{GeeksforGeeks}.
+\newblock Introduction to support vector machines (svm).
+\newblock GeeksforGeeks, 2023.
+\newblock URL \url{https://www.geeksforgeeks.org/introduction-to-support-vector-machines-svm/}.
+\newblock Accessed: 2023-07-25.
+
+\bibitem[Grebhahn et~al.(2019)Grebhahn, Siegmund, and Apel]{grebhahn:2019}
+Alexander Grebhahn, Norbert Siegmund, and Sven Apel.
+\newblock Predicting performance of software configurations: There is no silver bullet.
+\newblock \emph{arXiv preprint arXiv:1911.12643}, 2019.
+
+\bibitem[{Guardian News and Media}(2021)]{guardian:2021}
+{Guardian News and Media}.
+\newblock Facebook outage: What went wrong and why did it take so long to fix after social platform went down?
+\newblock The Guardian, 2021.
+\newblock URL \url{https://www.theguardian.com/technology/2021/oct/05/facebook-outage-what-went-wrong-and-why-did-it-take-so-long-to-fix}.
+\newblock Accessed: 2023-05-10.
+
+\bibitem[Hanna(2021)]{hanna:2021}
+K.~T. Hanna.
+\newblock What is a system administrator?
+\newblock Networking, 2021.
+\newblock URL \url{https://www.techtarget.com/searchnetworking/definition/system-administrator}.
+\newblock Accessed: 2023-06-29.
+
+\bibitem[Haque et~al.(2020)Haque, Iwaya, and Babar]{haque:2020}
+Mubin~Ul Haque, Leonardo~Horn Iwaya, and M~Ali Babar.
+\newblock Challenges in docker development: A large-scale study using stack overflow.
+\newblock In \emph{Proceedings of the 14th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)}, pages 1--11, 2020.
+
+\bibitem[Huang and Lie(2017)]{huang:2017}
+Zhen Huang and David Lie.
+\newblock Saic: identifying configuration files for system configuration management.
+\newblock \emph{arXiv preprint arXiv:1711.03397}, 2017.
+
+\bibitem[Janardhan(2021)]{jana:2021}
+S.~Janardhan.
+\newblock Update about the october 4th outage.
+\newblock Engineering at Meta, 2021.
+\newblock URL \url{https://engineering.fb.com/2021/10/04/networking-traffic/outage/}.
+\newblock Accessed: 2023-05-10.
+
+\bibitem[Johnson et~al.(2011)Johnson, Dempsey, Ross, Gupta, Bailey, et~al.]{johnson:2011}
+Arnold Johnson, Kelley Dempsey, Ron Ross, Sarbari Gupta, Dennis Bailey, et~al.
+\newblock Guide for security-focused configuration management of information systems.
+\newblock \emph{NIST special publication}, 800\penalty0 (128):\penalty0 16--16, 2011.
+
+\bibitem[Kojima et~al.(2022)Kojima, Gu, Reid, Matsuo, and Iwasawa]{kojima:2022}
+Takeshi Kojima, Shixiang~Shane Gu, Machel Reid, Yutaka Matsuo, and Yusuke Iwasawa.
+\newblock Large language models are zero-shot reasoners.
+\newblock \emph{Advances in neural information processing systems}, 35:\penalty0 22199--22213, 2022.
+
+\bibitem[Li et~al.(2019)Li, Drozd, Guo, Liu, Matsuoka, and Du]{li:2019}
+Bofang Li, Aleksandr Drozd, Yuhe Guo, Tao Liu, Satoshi Matsuoka, and Xiaoyong Du.
+\newblock Scaling word2vec on big corpus.
+\newblock \emph{Data science and engineering}, 4:\penalty0 157--175, 2019.
+
+\bibitem[Liu et~al.(2023{\natexlab{a}})Liu, Deng, Xu, Li, Zheng, Zhang, Zhao, Zhang, and Liu]{liujailbreaking:2023}
+Yi~Liu, Gelei Deng, Zhengzi Xu, Yuekang Li, Yaowen Zheng, Ying Zhang, Lida Zhao, Tianwei Zhang, and Yang Liu.
+\newblock Jailbreaking chatgpt via prompt engineering: An empirical study.
+\newblock \emph{arXiv preprint arXiv:2305.13860}, 2023{\natexlab{a}}.
+
+\bibitem[Liu et~al.(2023{\natexlab{b}})Liu, Han, Ma, Zhang, Yang, Tian, He, Li, He, Liu, et~al.]{liu:2023}
+Yiheng Liu, Tianle Han, Siyuan Ma, Jiayue Zhang, Yuanyuan Yang, Jiaming Tian, Hao He, Antong Li, Mengshen He, Zhengliang Liu, et~al.
+\newblock Summary of chatgpt-related research and perspective towards the future of large language models.
+\newblock \emph{Meta-Radiology}, page 100017, 2023{\natexlab{b}}.
+
+\bibitem[Luo et~al.(2023)Luo, Wang, Wu, Huang, and De~la Torre]{luo:2023}
+Jinqi Luo, Zhaoning Wang, Chen~Henry Wu, Dong Huang, and Fernando De~la Torre.
+\newblock Zero-shot model diagnosis.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 11631--11640, 2023.
+
+\bibitem[Mikolov et~al.(2013)Mikolov, Chen, Corrado, and Dean]{mikolov:2013}
+Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\newblock Efficient estimation of word representations in vector space.
+\newblock \emph{arXiv preprint arXiv:1301.3781}, 2013.
+
+\bibitem[{OpenAI Platform}(n.d.{\natexlab{a}})]{openai:2023}
+{OpenAI Platform}.
+\newblock Gpt-3.5.
+\newblock OpenAI Platform, n.d.{\natexlab{a}}.
+\newblock URL \url{https://platform.openai.com/docs/models/gpt-3-5}.
+\newblock Accessed: 2023-10-14.
+
+\bibitem[{OpenAI Platform}(n.d.{\natexlab{b}})]{openaicomplete:2023}
+{OpenAI Platform}.
+\newblock Create chat completion.
+\newblock OpenAI Platform, n.d.{\natexlab{b}}.
+\newblock URL \url{https://platform.openai.com/docs/api-reference/chat/create}.
+\newblock Accessed: 2023-10-14.
+
+\bibitem[{OWASP Foundation}(2023)]{owasp:2023}
+{OWASP Foundation}.
+\newblock Owasp web security testing guide.
+\newblock OWASP Foundation, 2023.
+\newblock URL \url{https://owasp.org/www-project-web-security-testing-guide/}.
+\newblock Accessed: 2023-07-24.
+
+\bibitem[Perrigo(2023)]{perrigo:2023}
+B.~Perrigo.
+\newblock The a to z of artificial intelligence.
+\newblock Time, 2023.
+\newblock URL \url{https://time.com/6271657/a-to-z-of-artificial-intelligence/}.
+\newblock Accessed: 2023-07-25.
+
+\bibitem[Rabkin and Katz(2011)]{rabkin:2011}
+Ariel Rabkin and Randy Katz.
+\newblock Precomputing possible configuration error diagnoses.
+\newblock \emph{2011 26th IEEE/ACM International Conference on Automated Software Engineering (ASE 2011)}, 2011.
+\newblock \doi{10.1109/ase.2011.6100053}.
+
+\bibitem[Reitz(n.d.)]{reitz:nd}
+K.~Reitz.
+\newblock Requests: Http for humans.
+\newblock website, n.d.
+\newblock URL \url{https://requests.readthedocs.io/}.
+\newblock Accessed: 2023-10-22.
+
+\bibitem[Reynolds and McDonell(2021)]{reynolds:2021}
+Laria Reynolds and Kyle McDonell.
+\newblock Prompt programming for large language models: Beyond the few-shot paradigm.
+\newblock In \emph{Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems}, pages 1--7, 2021.
+
+\bibitem[{scikit-learn}(n.d.{\natexlab{a}})]{scikit:nd}
+{scikit-learn}.
+\newblock 1.4. support vector machines.
+\newblock scikit-learn, n.d.{\natexlab{a}}.
+\newblock URL \url{https://scikit-learn.org/stable/modules/svm.html}.
+\newblock Accessed: 2023-07-25.
+
+\bibitem[{scikit-learn}(n.d.{\natexlab{b}})]{scikit:svm}
+{scikit-learn}.
+\newblock 1.4. support vector machines.
+\newblock scikit-learn, n.d.{\natexlab{b}}.
+\newblock URL \url{https://scikit-learn.org/stable/modules/svm.html\#svm}.
+\newblock Accessed: 2023-09-17.
+
+\bibitem[{scikit-learn}(n.d.{\natexlab{c}})]{scikitlearn}
+{scikit-learn}.
+\newblock Sklearn.model\_selection.train\_test\_split.
+\newblock scikit-learn, n.d.{\natexlab{c}}.
+\newblock URL \url{https://scikit-learn.org/stable/modules/generated/sklearn.model\_selection.train\_test\_split.html}.
+\newblock Accessed: 2023-08-27.
+
+\bibitem[Siegmund et~al.(2020)Siegmund, Ruckel, and Siegmund]{siegmund:2020}
+Norbert Siegmund, Nicolai Ruckel, and Janet Siegmund.
+\newblock Dimensions of software configuration: on the configuration context in modern software development.
+\newblock In \emph{Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering}, pages 338--349, 2020.
+
+\bibitem[{Stack Exchange, inc.}(2023)]{stackexchange:2023}
+{Stack Exchange, inc.}
+\newblock Stack exchange data dump.
+\newblock Internet Archive, 2023.
+\newblock URL \url{https://archive.org/details/stackexchange}.
+\newblock Accessed: 2023-05-10.
+
+\bibitem[Tian et~al.(2020)Tian, Lu, Liang, and Babar]{tian:2020}
+Fangchao Tian, Fan Lu, Peng Liang, and Muhammad~Ali Babar.
+\newblock Automatic identification of architecture smell discussions from stack overflow.
+\newblock In \emph{SEKE}, pages 451--456, 2020.
+
+\bibitem[Touvron et~al.(2023)Touvron, Lavril, Izacard, Martinet, Lachaux, Lacroix, Rozi{\`e}re, Goyal, Hambro, Azhar, et~al.]{touvron:2023}
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timoth{\'e}e Lacroix, Baptiste Rozi{\`e}re, Naman Goyal, Eric Hambro, Faisal Azhar, et~al.
+\newblock Llama: Open and efficient foundation language models.
+\newblock \emph{arXiv preprint arXiv:2302.13971}, 2023.
+
+\bibitem[\v{R}eh\r{u}\v{r}ek(2022{\natexlab{a}})]{rehurek:2022}
+Radim \v{R}eh\r{u}\v{r}ek.
+\newblock Gensim: Topic modelling for humans.
+\newblock Radim \v{R}eh\r{u}\v{r}ek, 2022{\natexlab{a}}.
+\newblock URL \url{https://radimrehurek.com/gensim/}.
+\newblock Accessed: 2023-09-13.
+
+\bibitem[\v{R}eh\r{u}\v{r}ek(2022{\natexlab{b}})]{rehurek:word2vec}
+Radim \v{R}eh\r{u}\v{r}ek.
+\newblock Word2vec model -- gensim.
+\newblock Radim \v{R}eh\r{u}\v{r}ek, 2022{\natexlab{b}}.
+\newblock URL \url{https://radimrehurek.com/gensim/auto\_examples/tutorials/run\_word2vec.html}.
+\newblock Accessed: 2023-09-13.
+
+\bibitem[Wei et~al.(2021)Wei, Bosma, Zhao, Guu, Yu, Lester, Du, Dai, and Le]{wei:2021}
+Jason Wei, Maarten Bosma, Vincent~Y Zhao, Kelvin Guu, Adams~Wei Yu, Brian Lester, Nan Du, Andrew~M Dai, and Quoc~V Le.
+\newblock Finetuned language models are zero-shot learners.
+\newblock \emph{arXiv preprint arXiv:2109.01652}, 2021.
+
+\bibitem[Wei et~al.(2022)Wei, Wang, Schuurmans, Bosma, Xia, Chi, Le, Zhou, et~al.]{wei:2022}
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed~Chi, Quoc~V Le, Denny Zhou, et~al.
+\newblock Chain-of-thought prompting elicits reasoning in large language models.
+\newblock \emph{Advances in Neural Information Processing Systems}, 35:\penalty0 24824--24837, 2022.
+
+\bibitem[White et~al.(2023)White, Fu, Hays, Sandborn, Olea, Gilbert, Elnashar, Spencer-Smith, and Schmidt]{white:2023}
+Jules White, Quchen Fu, Sam Hays, Michael Sandborn, Carlos Olea, Henry Gilbert, Ashraf Elnashar, Jesse Spencer-Smith, and Douglas~C Schmidt.
+\newblock A prompt pattern catalog to enhance prompt engineering with chatgpt.
+\newblock \emph{arXiv preprint arXiv:2302.11382}, 2023.
+
+\bibitem[{Wikimedia Foundation}(2022)]{wikimedia:2022}
+{Wikimedia Foundation}.
+\newblock System administrator.
+\newblock Wikipedia, 2022.
+\newblock URL \url{https://en.wikipedia.org/wiki/System_administrator\#Duties}.
+\newblock Accessed: 2023-05-10.
+
+\bibitem[Xu and Zhou(2015)]{xuzhou:2015}
+Tianyin Xu and Yuanyuan Zhou.
+\newblock Systems approaches to tackling configuration errors.
+\newblock \emph{ACM Computing Surveys}, 47\penalty0 (4):\penalty0 1--41, 2015.
+\newblock \doi{10.1145/2791577}.
+
+\bibitem[Yin et~al.(2011)Yin, Ma, Zheng, Zhou, Bairavasundaram, and Pasupathy]{yinma:2011}
+Zuoning Yin, Xiao Ma, Jing Zheng, Yuanyuan Zhou, Lakshmi~N. Bairavasundaram, and Shankar Pasupathy.
+\newblock An empirical study on configuration errors in commercial and open source systems.
+\newblock \emph{Proceedings of the Twenty-Third ACM Symposium on Operating Systems Principles}, 2011.
+\newblock \doi{10.1145/2043556.2043572}.
+
+\bibitem[Zhang and Ernst(2013)]{zhang:2013}
+Sai Zhang and Michael~D. Ernst.
+\newblock Automated diagnosis of software configuration errors.
+\newblock \emph{2013 35th International Conference on Software Engineering (ICSE)}, 2013.
+\newblock \doi{10.1109/icse.2013.6606577}.
+
+\bibitem[Zhang et~al.(2022)Zhang, Zhang, Li, and Smola]{zhang:2022}
+Zhuosheng Zhang, Aston Zhang, Mu~Li, and Alex Smola.
+\newblock Automatic chain of thought prompting in large language models.
+\newblock \emph{arXiv preprint arXiv:2210.03493}, 2022.
+
+\end{thebibliography}

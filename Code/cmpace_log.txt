@@ -1,0 +1,3741 @@
+--------------------------------
+WORD2VEC LOGS
+--------------------------------
+
+
+Model run at 2023-08-17_19:38:21
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 30488.6953125
+
+0/5638: error
+1/5638: org
+2/5638: configuration
+3/5638: java
+4/5638: system
+5/5638: web
+6/5638: name
+7/5638: file
+8/5638: config
+9/5638: com
+10/5638: version
+11/5638: strong
+12/5638: add
+13/5638: http
+14/5638: springframework
+15/5638: true
+16/5638: server
+17/5638: line
+18/5638: configure
+19/5638: log
+20/5638: application
+
+--------------------------------
+Model run at 2023-08-17_19:39:23
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 28696.8203125
+
+0/5638: error
+1/5638: org
+2/5638: configuration
+3/5638: java
+4/5638: system
+5/5638: web
+6/5638: name
+7/5638: file
+8/5638: config
+9/5638: com
+10/5638: version
+11/5638: strong
+12/5638: add
+13/5638: http
+14/5638: springframework
+15/5638: true
+16/5638: server
+17/5638: line
+18/5638: configure
+19/5638: log
+20/5638: application
+
+--------------------------------
+Model run at 2023-08-17_19:40:08
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 30304.66015625
+
+0/5638: error
+1/5638: org
+2/5638: configuration
+3/5638: java
+4/5638: system
+5/5638: web
+6/5638: name
+7/5638: file
+8/5638: config
+9/5638: com
+10/5638: version
+11/5638: strong
+12/5638: add
+13/5638: http
+14/5638: springframework
+15/5638: true
+16/5638: server
+17/5638: line
+18/5638: configure
+19/5638: log
+20/5638: application
+
+--------------------------------
+Model run at 2023-08-17_19:40:45
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 13073.6435546875
+
+0/5638: error
+1/5638: org
+2/5638: configuration
+3/5638: java
+4/5638: system
+5/5638: web
+6/5638: name
+7/5638: file
+8/5638: config
+9/5638: com
+10/5638: version
+11/5638: strong
+12/5638: add
+13/5638: http
+14/5638: springframework
+15/5638: true
+16/5638: server
+17/5638: line
+18/5638: configure
+19/5638: log
+20/5638: application
+
+--------------------------------
+Model run at 2023-08-17_20:10:23
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 12941.103515625
+
+0/5638: error
+1/5638: org
+2/5638: configuration
+3/5638: java
+4/5638: system
+5/5638: web
+6/5638: name
+7/5638: file
+8/5638: config
+9/5638: com
+10/5638: version
+11/5638: strong
+12/5638: add
+13/5638: http
+14/5638: springframework
+15/5638: true
+16/5638: server
+17/5638: line
+18/5638: configure
+19/5638: log
+20/5638: application
+
+--------------------------------
+Model run at 2023-08-17_20:13:18
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 29070.7578125
+
+0/5638: error
+1/5638: org
+2/5638: configuration
+3/5638: java
+4/5638: system
+5/5638: web
+6/5638: name
+7/5638: file
+8/5638: config
+9/5638: com
+10/5638: version
+11/5638: strong
+12/5638: add
+13/5638: http
+14/5638: springframework
+15/5638: true
+16/5638: server
+17/5638: line
+18/5638: configure
+19/5638: log
+20/5638: application
+
+--------------------------------
+Model run at 2023-08-18_13:49:02
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 32049.31640625
+
+0/7378: error
+1/7378: code
+2/7378: configuration
+3/7378: org
+4/7378: java
+5/7378: i
+6/7378: pre
+7/7378: file
+8/7378: config
+9/7378: web
+10/7378: system
+11/7378: com
+12/7378: name
+13/7378: 1
+14/7378: version
+15/7378: server
+16/7378: 0
+17/7378: line
+18/7378: configure
+19/7378: the
+20/7378: application
+
+--------------------------------
+Model run at 2023-08-18_13:49:28
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 13525.16796875
+
+0/7520: e
+1/7520:  
+2/7520: r
+3/7520: o
+4/7520: t
+5/7520: i
+6/7520: n
+7/7520: a
+8/7520: s
+9/7520: c
+10/7520: l
+11/7520: p
+12/7520: .
+13/7520: d
+14/7520: u
+15/7520: g
+16/7520: >
+17/7520: /
+18/7520: <
+19/7520: m
+20/7520: '
+
+--------------------------------
+Model run at 2023-08-18_13:51:06
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 15523.8095703125
+
+0/7378: error
+1/7378: code
+2/7378: configuration
+3/7378: org
+4/7378: java
+5/7378: i
+6/7378: pre
+7/7378: file
+8/7378: config
+9/7378: web
+10/7378: system
+11/7378: com
+12/7378: name
+13/7378: 1
+14/7378: version
+15/7378: server
+16/7378: 0
+17/7378: line
+18/7378: configure
+19/7378: the
+20/7378: application
+
+--------------------------------
+Model run at 2023-08-18_13:51:17
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 18422.982421875
+
+0/6342: error
+1/6342: i
+2/6342: configuration
+3/6342: java
+4/6342: org
+5/6342: 1
+6/6342: 0
+7/6342: file
+8/6342: config
+9/6342: 2
+10/6342: web
+11/6342: server
+12/6342: line
+13/6342: configure
+14/6342: the
+15/6342: application
+16/6342: com
+17/6342: system
+18/6342: 4
+19/6342: c
+20/6342: springframework
+
+--------------------------------
+Model run at 2023-08-18_13:51:42
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 32319.978515625
+
+0/5636: code
+1/5636: error
+2/5636: pre
+3/5636: org
+4/5636: configuration
+5/5636: java
+6/5636: system
+7/5636: web
+8/5636: name
+9/5636: file
+10/5636: config
+11/5636: com
+12/5636: version
+13/5636: strong
+14/5636: add
+15/5636: http
+16/5636: springframework
+17/5636: true
+18/5636: server
+19/5636: line
+20/5636: configure
+
+--------------------------------
+Model run at 2023-08-18_13:52:32
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 27814.0625
+
+0/5703: the
+1/5703: code
+2/5703: error
+3/5703: to
+4/5703: pre
+5/5703: org
+6/5703: configuration
+7/5703: at
+8/5703: java
+9/5703: is
+10/5703: in
+11/5703: system
+12/5703: this
+13/5703: name
+14/5703: and
+15/5703: web
+16/5703: file
+17/5703: for
+18/5703: config
+19/5703: com
+20/5703: version
+
+--------------------------------
+Model run at 2023-08-18_13:54:28
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 14305.037109375
+
+0/4462: error
+1/4462: configur
+2/4462: org
+3/4462: java
+4/4462: file
+5/4462: config
+6/4462: web
+7/4462: applic
+8/4462: server
+9/4462: line
+10/4462: set
+11/4462: com
+12/4462: user
+13/4462: run
+14/4462: version
+15/4462: c
+16/4462: springframework
+17/4462: log
+18/4462: apach
+19/4462: check
+20/4462: public
+
+--------------------------------
+Model run at 2023-08-18_14:02:03
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 35527.09375
+
+0/4462: error
+1/4462: configur
+2/4462: org
+3/4462: java
+4/4462: file
+5/4462: config
+6/4462: web
+7/4462: applic
+8/4462: server
+9/4462: line
+10/4462: set
+11/4462: com
+12/4462: user
+13/4462: run
+14/4462: version
+15/4462: c
+16/4462: springframework
+17/4462: log
+18/4462: apach
+19/4462: check
+20/4462: public
+
+--------------------------------
+Model run at 2023-08-18_14:03:47
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 29483.236328125
+
+0/4462: error
+1/4462: configur
+2/4462: org
+3/4462: java
+4/4462: file
+5/4462: config
+6/4462: web
+7/4462: applic
+8/4462: server
+9/4462: line
+10/4462: set
+11/4462: com
+12/4462: user
+13/4462: run
+14/4462: version
+15/4462: c
+16/4462: springframework
+17/4462: log
+18/4462: apach
+19/4462: check
+20/4462: public
+
+--------------------------------
+Model run at 2023-08-18_14:07:21
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 18676.71875
+
+0/4462: error
+1/4462: configur
+2/4462: org
+3/4462: java
+4/4462: file
+5/4462: config
+6/4462: web
+7/4462: applic
+8/4462: server
+9/4462: line
+10/4462: set
+11/4462: com
+12/4462: user
+13/4462: run
+14/4462: version
+15/4462: c
+16/4462: springframework
+17/4462: log
+18/4462: apach
+19/4462: check
+20/4462: public
+
+--------------------------------
+Model run at 2023-08-18_14:09:52
+min_count = 1
+alpha = 1
+min_alpha = 0.1
+epochs = 100
+loss = 29951.34375
+
+0/4462: error
+1/4462: configur
+2/4462: org
+3/4462: java
+4/4462: file
+5/4462: config
+6/4462: web
+7/4462: applic
+8/4462: server
+9/4462: line
+10/4462: set
+11/4462: com
+12/4462: user
+13/4462: run
+14/4462: version
+15/4462: c
+16/4462: springframework
+17/4462: log
+18/4462: apach
+19/4462: check
+20/4462: public
+
+--------------------------------
+Model run at 2023-08-18_14:21:39
+min_count = 5
+alpha = 0.0001
+epochs = 100
+loss = 5396102.5
+
+0/1161: error
+1/1161: configur
+2/1161: org
+3/1161: java
+4/1161: file
+5/1161: config
+6/1161: web
+7/1161: applic
+8/1161: server
+9/1161: line
+10/1161: set
+11/1161: com
+12/1161: user
+13/1161: run
+14/1161: version
+15/1161: c
+16/1161: springframework
+17/1161: log
+18/1161: apach
+19/1161: check
+20/1161: public
+
+--------------------------------
+Model run at 2023-08-18_14:23:12
+min_count = 5
+alpha = 0.001
+epochs = 1000
+loss = 16290183.0
+
+0/1161: error
+1/1161: configur
+2/1161: org
+3/1161: java
+4/1161: file
+5/1161: config
+6/1161: web
+7/1161: applic
+8/1161: server
+9/1161: line
+10/1161: set
+11/1161: com
+12/1161: user
+13/1161: run
+14/1161: version
+15/1161: c
+16/1161: springframework
+17/1161: log
+18/1161: apach
+19/1161: check
+20/1161: public
+
+--------------------------------
+Model run at 2023-08-18_14:27:26
+min_count = 5
+alpha = 1
+epochs = 10
+loss = 12181.5205078125
+
+0/1161: error
+1/1161: configur
+2/1161: org
+3/1161: java
+4/1161: file
+5/1161: config
+6/1161: web
+7/1161: applic
+8/1161: server
+9/1161: line
+10/1161: set
+11/1161: com
+12/1161: user
+13/1161: run
+14/1161: version
+15/1161: c
+16/1161: springframework
+17/1161: log
+18/1161: apach
+19/1161: check
+20/1161: public
+
+--------------------------------
+Model run at 2023-08-18_15:54:15
+min_count = 5
+alpha = 10
+epochs = 1
+loss = 2040.8419189453125
+
+0/1161: error
+1/1161: configur
+2/1161: org
+3/1161: java
+4/1161: file
+5/1161: config
+6/1161: web
+7/1161: applic
+8/1161: server
+9/1161: line
+10/1161: set
+11/1161: com
+12/1161: user
+13/1161: run
+14/1161: version
+15/1161: c
+16/1161: springframework
+17/1161: log
+18/1161: apach
+19/1161: check
+20/1161: public
+
+
+--------------------------------
+Models/cmpace_v0.0.1.model
+min_count = 5
+alpha = 0.001
+epochs = 500
+loss = 12902824.0
+
+Similarity between [configur] and [error]
+0.80065644
+
+Most similar words for [configur]
+[('invalid', 0.8509571552276611), ('error', 0.8006564378738403), ('mistak', 0.7741227746009827), ('exit', 0.7615948915481567), ('make', 0.7507423758506775)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+java
+
+
+--------------------------------
+Models/cmpace_v0.0.1.model
+min_count = 5
+alpha = 0.001
+epochs = 500
+loss = 12902824.0
+
+Similarity between [config] and [error]
+0.33473107
+
+Most similar words for [config]
+[('file', 0.7970247864723206), ('applicationhost', 0.7896102070808411), ('wwwroot', 0.7789740562438965), ('httphandler', 0.7646599411964417), ('inetpub', 0.7579376101493835)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+java
+
+
+--------------------------------
+Models/cmpace_2023-08-19_12:35:19.model
+min_count = 5
+alpha = 0.001
+epochs = 100
+loss = 5098683.0
+
+Similarity between [config] and [error]
+0.9982215
+
+Most similar words for [config]
+[('code', 0.9996587038040161), ('us', 0.9996523857116699), ('s', 0.9996331930160522), ('data', 0.9996325373649597), ('add', 0.9996285438537598)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+java
+
+
+--------------------------------
+Models/cmpace_2023-08-19_12:36:24.model
+min_count = 5
+alpha = 0.0001
+epochs = 50
+loss = 2856520.0
+
+Similarity between [config] and [error]
+0.035873733
+
+Most similar words for [config]
+[('eclips', 0.33629778027534485), ('librari', 0.33559802174568176), ('session', 0.33387795090675354), ('support', 0.3182239532470703), ('openfst', 0.30876603722572327)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+problem
+
+
+--------------------------------
+Models/cmpace_2023-08-19_12:36:48.model
+min_count = 5
+alpha = 0.0001
+epochs = 100
+loss = 4869904.0
+
+Similarity between [config] and [error]
+0.48506907
+
+Most similar words for [config]
+[('support', 0.525812029838562), ('com', 0.5210803747177124), ('java', 0.5149405598640442), ('org', 0.510704517364502), ('eclips', 0.5099677443504333)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+invalid
+
+
+--------------------------------
+Models/cmpace_2023-08-19_12:40:30.model
+min_count = 5
+alpha = 0.0001
+epochs = 100
+loss = 5094278.0
+
+Similarity between [config] and [error]
+0.48733097
+
+Most similar words for [config]
+[('com', 0.5264551043510437), ('support', 0.5256543755531311), ('java', 0.5241935849189758), ('org', 0.5137497186660767), ('eclips', 0.5101703405380249)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+invalid
+
+
+--------------------------------
+Models/cmpace_2023-08-19_12:41:08.model
+min_count = 5
+alpha = 0.0001
+epochs = 110
+loss = 5463190.5
+
+Similarity between [config] and [error]
+0.6066801
+
+Most similar words for [config]
+[('java', 0.6268631815910339), ('org', 0.6226362586021423), ('com', 0.6137225031852722), ('configur', 0.609690248966217), ('error', 0.6066800951957703)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+invalid
+
+
+
+--------------------------------
+Models/cmpace_2023-08-19_12:55:26.model
+min_count = 5
+alpha = 0.001
+epochs = 200
+loss = 7094850.5
+
+Similarity between [error] and [config]
+0.81364244
+
+Most similar words for [error]
+[('messag', 0.982301652431488), ('occur', 0.980477511882782), ('descript', 0.9789959788322449), ('configur', 0.977325975894928), ('appropri', 0.973316490650177)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+java
+
+
+--------------------------------
+Models/cmpace_PROM_2023-08-19_12:55:26.model
+
+Similarity between [error] and [config]
+0.81364244
+
+Most similar words for [error]
+[('messag', 0.982301652431488), ('occur', 0.980477511882782), ('descript', 0.9789959788322449), ('configur', 0.977325975894928), ('appropri', 0.973316490650177)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+java
+
+
+--------------------------------
+Models/cmpace_2023-08-19_13:05:09.model
+min_count = 5
+alpha = 0.001
+sg = 1
+hs = 1
+window = 10
+epochs = 100
+loss = 37291264.0
+
+Similarity between [config] and [error]
+0.34959647
+
+Most similar words for [config]
+[('wwwroot', 0.654457151889801), ('applicationhost', 0.6518002152442932), ('inetpub', 0.6508416533470154), ('allow', 0.6411532163619995), ('inform', 0.6320547461509705)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+java
+
+
+--------------------------------
+Models/cmpace_2023-08-19_13:05:56.model
+min_count = 5
+alpha = 0.001
+sg = 0
+hs = 1
+window = 10
+epochs = 100
+loss = 10358215.0
+
+Similarity between [config] and [error]
+0.79550004
+
+Most similar words for [config]
+[('relat', 0.9546622037887573), ('need', 0.9476220607757568), ('code', 0.9457600116729736), ('chang', 0.9455060362815857), ('tri', 0.9419012665748596)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+java
+
+
+--------------------------------
+Models/cmpace_2023-08-19_13:05:56.model
+
+Similarity between [configur] and [error]
+0.94364035
+
+Most similar words for [configur]
+[('file', 0.9557336568832397), ('requir', 0.9544433355331421), ('request', 0.9452130794525146), ('error', 0.943640410900116), ('descript', 0.940811038017273)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+java
+
+
+--------------------------------
+Models/cmpace_2023-08-19_13:07:51.model
+min_count = 5
+alpha = 0.001
+sg = 1
+hs = 0
+window = 10
+epochs = 100
+loss = 22089890.0
+
+Similarity between [configur] and [error]
+0.83761275
+
+Most similar words for [configur]
+[('make', 0.8425732851028442), ('mistak', 0.8388016819953918), ('error', 0.8376128673553467), ('mean', 0.8313678503036499), ('specif', 0.8255681991577148)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+java
+
+
+--------------------------------
+Models/cmpace_2023-08-19_13:07:51.model
+
+Similarity between [configur] and [error]
+0.83761275
+
+Most similar words for [configur]
+[('make', 0.8425732851028442), ('mistak', 0.8388016819953918), ('error', 0.8376128673553467), ('mean', 0.8313678503036499), ('specif', 0.8255681991577148)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+java
+
+
+--------------------------------
+Models/cmpace_2023-08-19_13:07:51.model
+
+Similarity between [config] and [error]
+0.47427922
+
+Most similar words for [config]
+[('call', 0.8083052635192871), ('box', 0.7743538618087769), ('applicationhost', 0.7734981179237366), ('pre', 0.7644389271736145), ('search', 0.7617135047912598)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+java
+
+
+--------------------------------
+Models/cmpace_2023-08-19_13:09:44.model
+min_count = 5
+alpha = 0.001
+sg = 1
+hs = 0
+window = 10
+epochs = 500
+loss = 51740360.0
+
+Similarity between [config] and [error]
+0.11022026
+
+Most similar words for [config]
+[('path', 0.462331622838974), ('cudpp', 0.43896907567977905), ('forward', 0.434976190328598), ('inform', 0.42965519428253174), ('yamlconfigurationload', 0.4178987741470337)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+cloud
+
+
+--------------------------------
+Models/cmpace_2023-08-19_13:09:44.model
+
+Similarity between [config] and [error]
+0.11022026
+
+Most similar words for [config]
+[('path', 0.462331622838974), ('cudpp', 0.43896907567977905), ('forward', 0.434976190328598), ('inform', 0.42965519428253174), ('yamlconfigurationload', 0.4178987741470337)]
+
+Similarity between [configur] and [error]
+0.68510354
+
+Most similar words for [configur]
+[('error', 0.6851035356521606), ('file', 0.4837160110473633), ('occur', 0.46506914496421814), ('result', 0.4619525074958801), ('get', 0.46108493208885193)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+cloud
+
+
+--------------------------------
+Models/cmpace_2023-08-19_13:13:16.model
+v1.1
+min_count = 5
+alpha = 0.001
+sg = 1
+hs = 1
+window = 10
+epochs = 500
+loss = 67865408.0
+
+Similarity between [config] and [error]
+0.18478775
+
+Most similar words for [config]
+[('web', 0.5048068165779114), ('solut', 0.4735976755619049), ('path', 0.4700082540512085), ('file', 0.46643689274787903), ('inform', 0.4570015072822571)]
+
+Similarity between [configur] and [error]
+0.83205324
+
+Most similar words for [configur]
+[('error', 0.8320532441139221), ('occur', 0.5751016139984131), ('file', 0.5735632181167603), ('applic', 0.5659958124160767), ('follow', 0.5386486649513245)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+cloud
+
+
+--------------------------------
+Models/cmpace_2023-08-19_13:17:39.model
+min_count = 5
+alpha = 0.0001
+sg = 1
+hs = 1
+window = 10
+epochs = 500
+loss = 61376876.0
+
+Similarity between [config] and [error]
+0.3833508
+
+Most similar words for [config]
+[('wwwroot', 0.6964185237884521), ('inetpub', 0.6955423355102539), ('applicationhost', 0.68390953540802), ('inform', 0.675201952457428), ('window', 0.6656030416488647)]
+
+Similarity between [configur] and [error]
+0.82005274
+
+Most similar words for [configur]
+[('error', 0.8200527429580688), ('detail', 0.7314534783363342), ('occur', 0.7293270230293274), ('review', 0.7273119688034058), ('modifi', 0.7213262319564819)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+java
+
+
+--------------------------------
+Models/cmpace_2023-08-19_13:19:54.model
+v1.2
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 10
+epochs = 500
+loss = 67889048.0
+
+Similarity between [config] and [error]
+0.2316761
+
+Most similar words for [config]
+[('web', 0.5546523332595825), ('file', 0.46934497356414795), ('section', 0.4341447353363037), ('window', 0.4155902862548828), ('inform', 0.4046974778175354)]
+
+Similarity between [configur] and [error]
+0.79349816
+
+Most similar words for [configur]
+[('error', 0.793498158454895), ('file', 0.5579595565795898), ('follow', 0.505220890045166), ('occur', 0.4906453490257263), ('applic', 0.4630977511405945)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+cloud
+
+
+--------------------------------
+Models/cmpace_2023-08-20_12:20:43.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 3
+epochs = 500
+loss = 46759036.0
+
+Similarity between [config] and [error]
+0.192042
+
+Most similar words for [config]
+[('file', 0.5096157193183899), ('web', 0.47555720806121826), ('give', 0.39866042137145996), ('wrong', 0.3867208659648895), ('forward', 0.384614497423172)]
+
+Similarity between [configur] and [error]
+0.70548695
+
+Most similar words for [configur]
+[('error', 0.7054868936538696), ('file', 0.5388467311859131), ('check', 0.4081786572933197), ('try', 0.37825503945350647), ('give', 0.372418612241745)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+java
+
+
+--------------------------------
+Models/cmpace_2023-08-20_12:25:29.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 5
+epochs = 500
+loss = 57760104.0
+
+Similarity between [config] and [error]
+0.2140879
+
+Most similar words for [config]
+[('web', 0.5559636354446411), ('file', 0.4588005840778351), ('solut', 0.41559189558029175), ('section', 0.40521690249443054), ('serverapp', 0.37034541368484497)]
+
+Similarity between [configur] and [error]
+0.7421367
+
+Most similar words for [configur]
+[('error', 0.7421365976333618), ('file', 0.5141316652297974), ('check', 0.45668351650238037), ('occur', 0.44642749428749084), ('try', 0.4206482172012329)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+cloud
+
+
+--------------------------------
+Models/cmpace_2023-08-20_12:47:22.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 3
+epochs = 500
+loss = 45793724.0
+
+Similarity between [config] and [error]
+0.18613775
+
+Most similar words for [config]
+[('web', 0.48783189058303833), ('file', 0.47154882550239563), ('linq', 0.4014227092266083), ('give', 0.38295894861221313), ('solut', 0.3788658380508423)]
+
+Similarity between [configur] and [error]
+0.6818831
+
+Most similar words for [configur]
+[('error', 0.6818830370903015), ('file', 0.5546063780784607), ('occur', 0.4252130389213562), ('give', 0.39913275837898254), ('check', 0.39612871408462524)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+java
+
+
+--------------------------------
+Models/cmpace_2023-08-20_13:05:19.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 51628696.0
+
+Similarity between [config] and [error]
+0.17148262
+
+Most similar words for [config]
+[('web', 0.5135199427604675), ('file', 0.47181493043899536), ('rout', 0.4168015122413635), ('path', 0.39560094475746155), ('solut', 0.38977938890457153)]
+
+Similarity between [configur] and [error]
+0.7231955
+
+Most similar words for [configur]
+[('error', 0.7231956124305725), ('file', 0.49841922521591187), ('occur', 0.44562625885009766), ('check', 0.4111301302909851), ('give', 0.3967078626155853)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']
+cloud
+
+--------------------------------
+../Models/cmpace_v1.2.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 10
+epochs = 500
+loss = 67889048.0
+
+0/1161: error
+1/1161: configur
+2/1161: org
+3/1161: java
+4/1161: file
+5/1161: config
+6/1161: web
+7/1161: applic
+8/1161: server
+9/1161: line
+10/1161: set
+
+Similarity between config and error:
+0.2316761016845703
+
+Most similar words for config:
+[('web', 0.5546523332595825), ('file', 0.46934497356414795), ('section', 0.4341447353363037), ('window', 0.4155902862548828), ('inform', 0.4046974778175354)]
+
+Similarity between configur and error:
+0.793498158454895
+
+Most similar words for configur:
+[('error', 0.793498158454895), ('file', 0.5579595565795898), ('follow', 0.505220890045166), ('occur', 0.4906453490257263), ('applic', 0.4630977511405945)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+cloud
+
+
+--------------------------------
+Models/cmpace_2023-08-21_12:01:16.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 58263560.0
+
+0/1410: error
+1/1410: configur
+2/1410: org
+3/1410: java
+4/1410: file
+5/1410: config
+6/1410: run
+7/1410: set
+8/1410: server
+9/1410: applic
+10/1410: t
+
+Similarity between config and error:
+0.2530820071697235
+
+Most similar words for config:
+[('web', 0.5291082859039307), ('file', 0.4908742606639862), ('machin', 0.4456046521663666), ('httphandler', 0.4383263885974884), ('path', 0.4102831482887268)]
+
+Similarity between configur and error:
+0.800200343132019
+
+Most similar words for configur:
+[('error', 0.8002002835273743), ('file', 0.5119344592094421), ('follow', 0.4817659556865692), ('get', 0.46828320622444153), ('applic', 0.4514240622520447)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+cloud
+
+
+--------------------------------
+../Models/cmpace_2023-08-21_12:01:16.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 58263560.0
+
+0/1410: error
+1/1410: configur
+2/1410: org
+3/1410: java
+4/1410: file
+5/1410: config
+6/1410: run
+7/1410: set
+8/1410: server
+9/1410: applic
+10/1410: t
+
+Similarity between config and error:
+0.2530820071697235
+
+Most similar words for config:
+[('web', 0.5291082859039307), ('file', 0.4908742606639862), ('machin', 0.4456046521663666), ('httphandler', 0.4383263885974884), ('path', 0.4102831482887268)]
+
+Similarity between configur and error:
+0.800200343132019
+
+Most similar words for configur:
+[('error', 0.8002002835273743), ('file', 0.5119344592094421), ('follow', 0.4817659556865692), ('get', 0.46828320622444153), ('applic', 0.4514240622520447)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+cloud
+
+
+--------------------------------
+../Models/cmpace_2023-08-21_12:29:44.model
+min_count = 1
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 61414768.0
+
+0/5151: error
+1/5151: configur
+2/5151: org
+3/5151: java
+4/5151: file
+5/5151: config
+6/5151: web
+7/5151: server
+8/5151: applic
+9/5151: run
+10/5151: set
+
+Similarity between config and error:
+0.41197317838668823
+
+Most similar words for config:
+[('web', 0.5932322144508362), ('file', 0.5804756879806519), ('section', 0.5077126622200012), ('initializedata', 0.4944551885128021), ('harrisinterfac', 0.4916514754295349)]
+
+Similarity between configur and error:
+0.843535840511322
+
+Most similar words for configur:
+[('error', 0.8435359001159668), ('file', 0.6145756840705872), ('occur', 0.5516528487205505), ('check', 0.506876528263092), ('applic', 0.5067012310028076)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+cloud
+
+
+--------------------------------
+SVM LOGS
+--------------------------------
+
+
+--------------------------------
+Parameters
+C: 0.01
+gamma: 0.0001
+Kernel: linear
+
+Accuracy: 0.9215686274509803
+Precision: 0.9259259259259259
+Recall: 0.9259259259259259
+F1 score: 0.9259259259259259
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.05
+gamma: 0.0001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9230769230769231
+Recall: 0.8888888888888888
+F1 score: 0.9056603773584906
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.1
+gamma: 0.0001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9230769230769231
+Recall: 0.8888888888888888
+F1 score: 0.9056603773584906
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 1
+gamma: 0.0001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9230769230769231
+Recall: 0.8888888888888888
+F1 score: 0.9056603773584906
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 10
+gamma: 0.0001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9230769230769231
+Recall: 0.8888888888888888
+F1 score: 0.9056603773584906
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 10000
+gamma: 0.0001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9230769230769231
+Recall: 0.8888888888888888
+F1 score: 0.9056603773584906
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.001
+gamma: 0.0001
+Kernel: linear
+
+Accuracy: 0.9215686274509803
+Precision: 1.0
+Recall: 0.8518518518518519
+F1 score: 0.92
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.0001
+gamma: 0.0001
+Kernel: linear
+
+Accuracy: 0.8235294117647058
+Precision: 0.95
+Recall: 0.7037037037037037
+F1 score: 0.8085106382978724
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 1e-06
+gamma: 0.0001
+Kernel: linear
+
+Accuracy: 0.5294117647058824
+Precision: 0.5294117647058824
+Recall: 1.0
+F1 score: 0.6923076923076924
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.001
+gamma: 0.0001
+Kernel: linear
+
+Accuracy: 0.9215686274509803
+Precision: 1.0
+Recall: 0.8518518518518519
+F1 score: 0.92
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 0.0001
+Kernel: linear
+
+Accuracy: 0.9215686274509803
+Precision: 0.9259259259259259
+Recall: 0.9259259259259259
+F1 score: 0.9259259259259259
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9215686274509803
+Precision: 0.9259259259259259
+Recall: 0.9259259259259259
+F1 score: 0.9259259259259259
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 0.01
+Kernel: linear
+
+Accuracy: 0.9215686274509803
+Precision: 0.9259259259259259
+Recall: 0.9259259259259259
+F1 score: 0.9259259259259259
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 1
+Kernel: linear
+
+Accuracy: 0.9215686274509803
+Precision: 0.9259259259259259
+Recall: 0.9259259259259259
+F1 score: 0.9259259259259259
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 1e-06
+Kernel: linear
+
+Accuracy: 0.9215686274509803
+Precision: 0.9259259259259259
+Recall: 0.9259259259259259
+F1 score: 0.9259259259259259
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 0.001
+Kernel: poly
+
+Accuracy: 0.47058823529411764
+Precision: 0.0
+Recall: 0.0
+F1 score: 0.0
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 0.001
+Kernel: rbf
+
+Accuracy: 0.5294117647058824
+Precision: 0.5294117647058824
+Recall: 1.0
+F1 score: 0.6923076923076924
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 0.001
+Kernel: sigmoid
+
+Accuracy: 0.5294117647058824
+Precision: 0.5294117647058824
+Recall: 1.0
+F1 score: 0.6923076923076924
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9215686274509803
+Precision: 0.9259259259259259
+Recall: 0.9259259259259259
+F1 score: 0.9259259259259259
+
+
+--------------------------------
+Parameters and Results of SVM
+C: Default
+gamma: Default
+Kernel: Default
+
+Accuracy: 0.8823529411764706
+Precision: 0.92
+Recall: 0.8518518518518519
+F1 score: 0.8846153846153846
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9215686274509803
+Precision: 0.9259259259259259
+Recall: 0.9259259259259259
+F1 score: 0.9259259259259259
+
+
+--------------------------------
+CM-PACE LOGS
+--------------------------------
+
+
+--------------------------------
+../Models/cmpace_v3.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 56868480.0
+
+0/1415: error
+1/1415: configur
+2/1415: org
+3/1415: java
+4/1415: file
+5/1415: config
+6/1415: set
+7/1415: run
+8/1415: server
+9/1415: web
+10/1415: applic
+
+Similarity between config and error:
+0.1984499841928482
+
+Most similar words for config:
+[('web', 0.5438647866249084), ('file', 0.493028849363327), ('cde', 0.3948444128036499), ('inetpub', 0.390716016292572), ('wrong', 0.3898325562477112)]
+
+Similarity between configur and error:
+0.7545161247253418
+
+Most similar words for configur:
+[('error', 0.754516065120697), ('file', 0.5505940914154053), ('occur', 0.49304530024528503), ('give', 0.44796615839004517), ('except', 0.443266898393631)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9411764705882353
+Precision: 0.9583333333333334
+Recall: 0.92
+F1 score: 0.9387755102040817
+
+
+--------------------------------
+../Models/cmpace_2023-08-23_09:37:50.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57464936.0
+
+0/1400: error
+1/1400: configur
+2/1400: org
+3/1400: java
+4/1400: file
+5/1400: config
+6/1400: set
+7/1400: server
+8/1400: web
+9/1400: t
+10/1400: run
+
+Similarity between config and error:
+0.26706236600875854
+
+Most similar words for config:
+[('web', 0.5819210410118103), ('file', 0.49797049164772034), ('wwwroot', 0.4408128261566162), ('inetpub', 0.4265584945678711), ('cudpp', 0.401332825422287)]
+
+Similarity between configur and error:
+0.7974551916122437
+
+Most similar words for configur:
+[('error', 0.7974552512168884), ('file', 0.5497273802757263), ('occur', 0.5034123659133911), ('get', 0.4598301649093628), ('follow', 0.4275425374507904)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9642857142857143
+Recall: 0.8709677419354839
+F1 score: 0.9152542372881356
+
+
+--------------------------------
+../Models/cmpace_2023-08-23_09:38:59.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 56798412.0
+
+0/1384: error
+1/1384: configur
+2/1384: org
+3/1384: java
+4/1384: file
+5/1384: config
+6/1384: server
+7/1384: applic
+8/1384: web
+9/1384: set
+10/1384: run
+
+Similarity between config and error:
+0.2800408899784088
+
+Most similar words for config:
+[('web', 0.6059629321098328), ('file', 0.5402913093566895), ('section', 0.4722936749458313), ('peerorgan', 0.4638930857181549), ('wwwroot', 0.41191479563713074)]
+
+Similarity between configur and error:
+0.742811381816864
+
+Most similar words for configur:
+[('error', 0.742811381816864), ('file', 0.5298757553100586), ('occur', 0.5267159342765808), ('except', 0.472563773393631), ('hhh', 0.46700364351272583)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+cloud
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.8627450980392157
+Precision: 0.8846153846153846
+Recall: 0.8518518518518519
+F1 score: 0.8679245283018868
+
+
+--------------------------------
+../Models/cmpace_v3.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 56868480.0
+
+0/1415: error
+1/1415: configur
+2/1415: org
+3/1415: java
+4/1415: file
+5/1415: config
+6/1415: set
+7/1415: run
+8/1415: server
+9/1415: web
+10/1415: applic
+
+Similarity between config and error:
+0.1984499841928482
+
+Most similar words for config:
+[('web', 0.5438647866249084), ('file', 0.493028849363327), ('cde', 0.3948444128036499), ('inetpub', 0.390716016292572), ('wrong', 0.3898325562477112)]
+
+Similarity between configur and error:
+0.7545161247253418
+
+Most similar words for configur:
+[('error', 0.754516065120697), ('file', 0.5505940914154053), ('occur', 0.49304530024528503), ('give', 0.44796615839004517), ('except', 0.443266898393631)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.8823529411764706
+Precision: 0.9166666666666666
+Recall: 0.8461538461538461
+F1 score: 0.8799999999999999
+
+
+--------------------------------
+../Models/Word2Vec/cmpace_v3.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 56868480.0
+
+0/1415: error
+1/1415: configur
+2/1415: org
+3/1415: java
+4/1415: file
+5/1415: config
+6/1415: set
+7/1415: run
+8/1415: server
+9/1415: web
+10/1415: applic
+
+Similarity between config and error:
+0.1984499841928482
+
+Most similar words for config:
+[('web', 0.5438647866249084), ('file', 0.493028849363327), ('cde', 0.3948444128036499), ('inetpub', 0.390716016292572), ('wrong', 0.3898325562477112)]
+
+Similarity between configur and error:
+0.7545161247253418
+
+Most similar words for configur:
+[('error', 0.754516065120697), ('file', 0.5505940914154053), ('occur', 0.49304530024528503), ('give', 0.44796615839004517), ('except', 0.443266898393631)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results of SVM
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.8823529411764706
+Precision: 0.92
+Recall: 0.8518518518518519
+F1 score: 0.8846153846153846
+
+
+--------------------------------
+Parameters and Results for ../Models/Word2Vec/cmpace_v3.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 56868480.0
+
+0/1415: error
+1/1415: configur
+2/1415: org
+3/1415: java
+4/1415: file
+5/1415: config
+6/1415: set
+7/1415: run
+8/1415: server
+9/1415: web
+10/1415: applic
+
+Similarity between config and error:
+0.1984499841928482
+
+Most similar words for config:
+[('web', 0.5438647866249084), ('file', 0.493028849363327), ('cde', 0.3948444128036499), ('inetpub', 0.390716016292572), ('wrong', 0.3898325562477112)]
+
+Similarity between configur and error:
+0.7545161247253418
+
+Most similar words for configur:
+[('error', 0.754516065120697), ('file', 0.5505940914154053), ('occur', 0.49304530024528503), ('give', 0.44796615839004517), ('except', 0.443266898393631)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for ../Models/SVM/cmpace_svm_2023-08-23_09:49:07.joblib
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9473684210526315
+Recall: 0.8181818181818182
+F1 score: 0.8780487804878049
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_2023-08-23_09:55:35.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 58071348.0
+
+0/1408: error
+1/1408: configur
+2/1408: java
+3/1408: org
+4/1408: file
+5/1408: config
+6/1408: set
+7/1408: server
+8/1408: run
+9/1408: web
+10/1408: applic
+
+Similarity between config and error:
+0.25792407989501953
+
+Most similar words for config:
+[('web', 0.5914279222488403), ('file', 0.5003164410591125), ('cudpp', 0.46358636021614075), ('peerorgan', 0.46293914318084717), ('httphandler', 0.43846026062965393)]
+
+Similarity between configur and error:
+0.7920877933502197
+
+Most similar words for configur:
+[('error', 0.7920879125595093), ('occur', 0.5129876136779785), ('file', 0.48879867792129517), ('follow', 0.47488459944725037), ('ye', 0.417285680770874)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+cloud
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-23_09:55:35
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.85
+Recall: 0.8947368421052632
+F1 score: 0.8717948717948718
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_2023-08-23_09:58:25.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57612860.0
+
+0/1382: error
+1/1382: configur
+2/1382: java
+3/1382: org
+4/1382: file
+5/1382: config
+6/1382: server
+7/1382: web
+8/1382: set
+9/1382: applic
+10/1382: line
+
+Similarity between config and error:
+0.31690171360969543
+
+Most similar words for config:
+[('web', 0.631843626499176), ('file', 0.5123445987701416), ('forward', 0.4861699342727661), ('supervisord', 0.4771656394004822), ('cudpp', 0.4383097290992737)]
+
+Similarity between configur and error:
+0.7601969838142395
+
+Most similar words for configur:
+[('error', 0.7601969838142395), ('file', 0.5318624973297119), ('follow', 0.4622257947921753), ('occur', 0.4402194917201996), ('get', 0.4338337182998657)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+cloud
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-23_09:58:25
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.8627450980392157
+Precision: 0.7916666666666666
+Recall: 0.9047619047619048
+F1 score: 0.8444444444444444
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_v2.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-23_10:00:08
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.8431372549019608
+Precision: 0.8695652173913043
+Recall: 0.8
+F1 score: 0.8333333333333333
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_v2.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_v1.0
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9411764705882353
+Precision: 0.92
+Recall: 0.9583333333333334
+F1 score: 0.9387755102040817
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-23_21:51:15
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9473684210526315
+Recall: 0.8181818181818182
+F1 score: 0.8780487804878049
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-23_21:51:15
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9473684210526315
+Recall: 0.8181818181818182
+F1 score: 0.8780487804878049
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-23_21:51:15
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9473684210526315
+Recall: 0.8181818181818182
+F1 score: 0.8780487804878049
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-23_21:51:15
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9473684210526315
+Recall: 0.8181818181818182
+F1 score: 0.8780487804878049
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_11:47:42
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9215686274509803
+Precision: 0.9285714285714286
+Recall: 0.9285714285714286
+F1 score: 0.9285714285714286
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_11:48:30
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.8627450980392157
+Precision: 0.8636363636363636
+Recall: 0.8260869565217391
+F1 score: 0.8444444444444444
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_11:48:47
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.8823529411764706
+Precision: 0.8214285714285714
+Recall: 0.9583333333333334
+F1 score: 0.8846153846153847
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_11:49:17
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9565217391304348
+Recall: 0.8461538461538461
+F1 score: 0.8979591836734695
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_11:50:42
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9259259259259259
+Recall: 0.8928571428571429
+F1 score: 0.9090909090909091
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_12:04:07
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9215686274509803
+Precision: 0.9523809523809523
+Recall: 0.8695652173913043
+F1 score: 0.909090909090909
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_12:04:25
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.8823529411764706
+Precision: 0.9285714285714286
+Recall: 0.8666666666666667
+F1 score: 0.896551724137931
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_12:04:46
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9615384615384616
+Recall: 0.8620689655172413
+F1 score: 0.9090909090909091
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_12:05:19
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.8333333333333334
+Recall: 0.9523809523809523
+F1 score: 0.888888888888889
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_12:05:46
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.8627450980392157
+Precision: 0.8571428571428571
+Recall: 0.8888888888888888
+F1 score: 0.8727272727272727
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_12:06:02
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9215686274509803
+Precision: 0.9310344827586207
+Recall: 0.9310344827586207
+F1 score: 0.9310344827586207
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_v2.3_PRIME
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9607843137254902
+Precision: 0.9545454545454546
+Recall: 0.9545454545454546
+F1 score: 0.9545454545454546
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_12:23:23
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.88
+Recall: 0.9166666666666666
+F1 score: 0.8979591836734694
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_13:32:12
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9230769230769231
+Recall: 0.8888888888888888
+F1 score: 0.9056603773584906
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_13:32:27
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9
+Recall: 0.9310344827586207
+F1 score: 0.9152542372881356
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_13:32:46
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9285714285714286
+Recall: 0.896551724137931
+F1 score: 0.912280701754386
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_13:33:01
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.8823529411764706
+Precision: 0.96875
+Recall: 0.8611111111111112
+F1 score: 0.911764705882353
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_13:33:18
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.8823529411764706
+Precision: 0.9166666666666666
+Recall: 0.8461538461538461
+F1 score: 0.8799999999999999
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_13:33:45
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.8627450980392157
+Precision: 0.88
+Recall: 0.8461538461538461
+F1 score: 0.8627450980392156
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_13:34:03
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.8823529411764706
+Precision: 0.8620689655172413
+Recall: 0.9259259259259259
+F1 score: 0.8928571428571429
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_13:34:03
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 1.0
+Precision: 1.0
+Recall: 1.0
+F1 score: 1.0
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_v2.4_PRIME
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9607843137254902
+Precision: 0.9642857142857143
+Recall: 0.9642857142857143
+F1 score: 0.9642857142857143
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-24_13:34:35
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9607843137254902
+Precision: 0.9642857142857143
+Recall: 0.9642857142857143
+F1 score: 0.9642857142857143
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_2023-08-25_12:06:49.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 58996108.0
+
+0/1398: error
+1/1398: configur
+2/1398: java
+3/1398: org
+4/1398: file
+5/1398: config
+6/1398: run
+7/1398: set
+8/1398: server
+9/1398: applic
+10/1398: web
+
+Similarity between config and error:
+0.27446651458740234
+
+Most similar words for config:
+[('web', 0.572604775428772), ('file', 0.4736923277378082), ('inetpub', 0.4513799250125885), ('wwwroot', 0.44074898958206177), ('swaggerconfig', 0.42605122923851013)]
+
+Similarity between configur and error:
+0.7679540514945984
+
+Most similar words for configur:
+[('error', 0.7679541110992432), ('file', 0.5493677258491516), ('invalid', 0.4884457290172577), ('follow', 0.4504280388355255), ('gnu', 0.4193482995033264)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+cloud
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-08-25_12:06:49
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.8928571428571429
+Recall: 0.9259259259259259
+F1 score: 0.9090909090909091
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+0/1327: error
+1/1327: configur
+2/1327: file
+3/1327: org
+4/1327: java
+5/1327: config
+6/1327: set
+7/1327: web
+8/1327: applic
+9/1327: run
+10/1327: line
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-09-16_13:26:58
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9090909090909091
+Recall: 0.8695652173913043
+F1 score: 0.888888888888889
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-09-16_13:26:58
+C: 0.01
+gamma: 0.1
+Kernel: linear
+
+Accuracy: 0.9019607843137255
+Precision: 0.9090909090909091
+Recall: 0.8695652173913043
+F1 score: 0.888888888888889
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-09-16_13:26:58
+C: 0.01
+gamma: 0.01
+Kernel: poly
+
+Accuracy: 0.5686274509803921
+Precision: 1.0
+Recall: 0.043478260869565216
+F1 score: 0.08333333333333333
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-09-16_13:26:58
+C: 0.01
+gamma: 0.001
+Kernel: poly
+
+Accuracy: 0.5490196078431373
+Precision: 0.0
+Recall: 0.0
+F1 score: 0.0
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-09-16_13:26:58
+C: 0.01
+gamma: 0.001
+Kernel: rbf
+
+Accuracy: 0.45098039215686275
+Precision: 0.45098039215686275
+Recall: 1.0
+F1 score: 0.6216216216216216
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_2023-10-03_15:55:30.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 56549328.0
+
+0/1436: error
+1/1436: configur
+2/1436: org
+3/1436: java
+4/1436: file
+5/1436: config
+6/1436: server
+7/1436: set
+8/1436: run
+9/1436: applic
+10/1436: web
+
+Similarity between config and error:
+0.26178231835365295
+
+Most similar words for config:
+[('web', 0.5260130763053894), ('file', 0.48763370513916016), ('react', 0.44185078144073486), ('machin', 0.43212777376174927), ('section', 0.43162786960601807)]
+
+Similarity between configur and error:
+0.802492082118988
+
+Most similar words for configur:
+[('error', 0.8024919629096985), ('file', 0.4977880120277405), ('detail', 0.497401624917984), ('occur', 0.4728431701660156), ('get', 0.43910351395606995)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-10-03_15:55:30
+C: 0.01
+gamma: 1e-05
+Kernel: linear
+
+Accuracy: 0.8431372549019608
+Precision: 0.8
+Recall: 0.9230769230769231
+F1 score: 0.8571428571428571
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-10-03_15:55:30
+C: 0.01
+gamma: 1e-05
+Kernel: rbf
+
+Accuracy: 0.5098039215686274
+Precision: 0.5098039215686274
+Recall: 1.0
+F1 score: 0.6753246753246753
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-10-03_15:55:30
+C: 0.01
+gamma: 1e-05
+Kernel: linear
+
+Accuracy: 0.8431372549019608
+Precision: 0.8
+Recall: 0.9230769230769231
+F1 score: 0.8571428571428571
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-10-03_15:55:30
+C: 0.01
+gamma: 1e-05
+Kernel: linear
+
+Accuracy: 0.8431372549019608
+Precision: 0.8
+Recall: 0.9230769230769231
+F1 score: 0.8571428571428571
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/SVM/cmpace_svm_2023-10-03_15:55:30
+C: 0.01
+gamma: 1e-05
+Kernel: linear
+
+Accuracy: 0.8431372549019608
+Precision: 0.8
+Recall: 0.9230769230769231
+F1 score: 0.8571428571428571
+
+
+--------------------------------
+Parameters and Results for Word2Vec Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+min_count = 5
+alpha = 0.01
+sg = 1
+hs = 1
+window = 4
+epochs = 500
+loss = 57536732.0
+
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+Similarity between config and error:
+0.294527530670166
+
+Most similar words for config:
+[('web', 0.5596780776977539), ('file', 0.5173095464706421), ('cudpp', 0.40932998061180115), ('rb', 0.40153074264526367), ('wwwroot', 0.3935110569000244)]
+
+Similarity between configur and error:
+0.7645865678787231
+
+Most similar words for configur:
+[('error', 0.7645866870880127), ('file', 0.5191519856452942), ('occur', 0.4893133342266083), ('give', 0.4655228853225708), ('applic', 0.42140066623687744)]
+
+Which does not fit in ['configur', 'error', 'invalid', 'java', 'problem', 'cloud']:
+java
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 1.0
+Precision: 1.0
+Recall: 1.0
+F1 score: 1.0
+
+
+--------------------------------
+Parameters and Results for SVM Model ../Models/Word2Vec/cmpace_w2v_v2.1_PRIME.model
+C: 0.01
+gamma: 0.001
+Kernel: linear
+
+Accuracy: 1.0
+Precision: 1.0
+Recall: 1.0
+F1 score: 1.0

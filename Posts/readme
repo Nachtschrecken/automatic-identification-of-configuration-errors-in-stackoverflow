@@ -1,0 +1,24 @@
+
+Positives contain all posts that DO contain talk about misconfigs
+Negatives contain all posts that do NOT contain talk about misconfigs
+
+In total: 502 Posts
+Training/Test split 90/10 [451/51]
+
+Positives: 261 posts
+Negatives: 241 posts 
+
+Searches:
+    POS
+Configuration Error
+Configuration
+Configuration File
+    NEG
+Configuration
+Docker
+Golang
+Angular
+SQL
+Rust
+AWS
+Azure
