@@ -1,4 +1,4 @@
-\begin{thebibliography}{45}
+\begin{thebibliography}{46}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -50,6 +50,13 @@ Vojtech Franc and V{\'a}clav Hlav{\'a}c.
 \newblock GeeksforGeeks, 2023.
 \newblock URL \url{https://www.geeksforgeeks.org/introduction-to-support-vector-machines-svm/}.
 \newblock Accessed: 2023-07-25.
+
+\bibitem[{GitHub}(2023)]{repo}
+{GitHub}.
+\newblock Automatic identification of configuration errors from stack overflow.
+\newblock GitHub, 2023.
+\newblock URL \url{https://github.com/Nachtschrecken/automatic-identification-of-configuration-errors-in-stackoverflow}.
+\newblock Accessed: 2024-01-14.
 
 \bibitem[Grebhahn et~al.(2019)Grebhahn, Siegmund, and Apel]{grebhahn:2019}
 Alexander Grebhahn, Norbert Siegmund, and Sven Apel.

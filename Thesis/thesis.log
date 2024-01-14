@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  14 JAN 2024 22:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  14 JAN 2024 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/ferris/Developer/Bachelor/automatic-identification-of-configuration-errors-in-stackoverflow/Thesis/thesis.tex
-(/Users/ferris/Developer/Bachelor/automatic-identification-of-configuration-errors-in-stackoverflow/Thesis/thesis.tex
+**"/Users/ferris/Developer/Bachelor/automatic-identification-of-configuration-errors-in-stackoverflow copy/Thesis/thesis.tex"
+(/Users/ferris/Developer/Bachelor/automatic-identification-of-configuration-errors-in-stackoverflow copy/Thesis/thesis.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (./swsLeipzig.cls
 Document Class: swsLeipzig 2014/01/08 v1.3
@@ -767,56 +767,61 @@ Chapter 1.
 [1
 
 
-] [2] [3]
+] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 137--147
+
+ []
+
+[3]
 Chapter 2.
 [4
 
 ] [5] [6{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [7] [8] [9] [10]
-Overfull \hbox (1.62473pt too wide) in paragraph at lines 298--300
+Overfull \hbox (1.62473pt too wide) in paragraph at lines 301--303
 []\T1/cmr/bx/n/12 Chain-of-Thought Prompt-ing: \T1/cmr/m/n/12 In this type, chains of thought demon-
  []
 
 [11] [12]
 Chapter 3.
 
-Overfull \hbox (0.96779pt too wide) in paragraph at lines 308--308
+Overfull \hbox (0.96779pt too wide) in paragraph at lines 311--311
 [][]\T1/cmr/bx/n/12 Challenges in Docker De-vel-op-ment: A Large-scale Study Us-ing Stack
  []
 
 [13
 
 ] [14]
-Overfull \hbox (7.49414pt too wide) in paragraph at lines 319--319
+Overfull \hbox (7.49414pt too wide) in paragraph at lines 322--322
 [][]\T1/cmr/bx/n/12 Automatic Iden-ti-fi-ca-tion of Ar-chi-tec-ture Smell Dis-cus-sions from Stack
  []
 
 [15] [16] [17] [18]
 Chapter 4.
-<images/figure1.png, id=419, 1872.9975pt x 714.67pt>
+<images/figure1.png, id=421, 1872.9975pt x 714.67pt>
 File: images/figure1.png Graphic file (type png)
 <use images/figure1.png>
-Package pdftex.def Info: images/figure1.png  used on input line 343.
+Package pdftex.def Info: images/figure1.png  used on input line 346.
 (pdftex.def)             Requested size: 398.33858pt x 151.99348pt.
-<images/figure2.png, id=421, 1762.585pt x 628.3475pt>
+<images/figure2.png, id=423, 1762.585pt x 628.3475pt>
 File: images/figure2.png Graphic file (type png)
 <use images/figure2.png>
-Package pdftex.def Info: images/figure2.png  used on input line 349.
+Package pdftex.def Info: images/figure2.png  used on input line 352.
 (pdftex.def)             Requested size: 398.33858pt x 142.00488pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/figure3.png, id=422, 1335.99126pt x 569.12625pt>
+<images/figure3.png, id=424, 1335.99126pt x 569.12625pt>
 File: images/figure3.png Graphic file (type png)
 <use images/figure3.png>
-Package pdftex.def Info: images/figure3.png  used on input line 355.
+Package pdftex.def Info: images/figure3.png  used on input line 358.
 (pdftex.def)             Requested size: 398.33858pt x 169.6884pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/figure4.png, id=423, 1871.99374pt x 524.96124pt>
+<images/figure4.png, id=425, 1871.99374pt x 524.96124pt>
 File: images/figure4.png Graphic file (type png)
 <use images/figure4.png>
-Package pdftex.def Info: images/figure4.png  used on input line 361.
+Package pdftex.def Info: images/figure4.png  used on input line 364.
 (pdftex.def)             Requested size: 398.33858pt x 111.70297pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -824,145 +829,145 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [19
 
  <./images/figure1.png>] [20 <./images/figure2.png> <./images/figure3.png>]
-<images/criterions.png, id=447, 618.31pt x 382.42876pt>
+<images/criterions.png, id=449, 618.31pt x 382.42876pt>
 File: images/criterions.png Graphic file (type png)
 <use images/criterions.png>
-Package pdftex.def Info: images/criterions.png  used on input line 379.
+Package pdftex.def Info: images/criterions.png  used on input line 382.
 (pdftex.def)             Requested size: 398.33858pt x 246.38164pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [21 <./images/figure4.png>] [22 <./images/criterions.png>] [23] [24] [25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 430--432
+Underfull \hbox (badness 10000) in paragraph at lines 433--435
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--440
+Underfull \hbox (badness 10000) in paragraph at lines 437--443
 
  []
 
 [27] [28]
-Overfull \hbox (13.86922pt too wide) in paragraph at lines 462--464
+Overfull \hbox (13.86922pt too wide) in paragraph at lines 465--467
 []\T1/cmr/m/n/12 To de-ter-mine op-ti-mal hy-per-pa-ram-e-ters, we uti-lized the Grid-SearchCV method
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--464
+Underfull \hbox (badness 10000) in paragraph at lines 465--467
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--469
+Underfull \hbox (badness 10000) in paragraph at lines 469--472
 
  []
 
 [29]
-Overfull \hbox (0.66406pt too wide) in paragraph at lines 478--480
+Overfull \hbox (0.66406pt too wide) in paragraph at lines 481--483
 \T1/cmr/m/n/12 To com-plete our fi-nal ma-chine learn-ing model, we com-bined both the Word2Vec
  []
 
 [30] [31] [32] [33] [34] [35] [36]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 548--549
+Underfull \hbox (badness 10000) in paragraph at lines 551--552
 
  []
 
 
-Overfull \hbox (7.52469pt too wide) in paragraph at lines 557--558
+Overfull \hbox (7.52469pt too wide) in paragraph at lines 560--561
 \T1/cmr/m/n/12 figur' and `python' still showed a con-tex-tual sim-i-lar-ity with a score of 0.03798087.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--560
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
 
  []
 
 [37
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 562--566
+Underfull \hbox (badness 10000) in paragraph at lines 565--569
 
  []
 
-<images/ressimilar.png, id=544, 222.8325pt x 437.635pt>
+<images/ressimilar.png, id=546, 222.8325pt x 437.635pt>
 File: images/ressimilar.png Graphic file (type png)
 <use images/ressimilar.png>
-Package pdftex.def Info: images/ressimilar.png  used on input line 573.
+Package pdftex.def Info: images/ressimilar.png  used on input line 576.
 (pdftex.def)             Requested size: 159.333pt x 312.92668pt.
 [38 <./images/ressimilar.png>]
-<images/windowres.png, id=553, 514.92375pt x 167.62625pt>
+<images/windowres.png, id=555, 514.92375pt x 167.62625pt>
 File: images/windowres.png Graphic file (type png)
 <use images/windowres.png>
-Package pdftex.def Info: images/windowres.png  used on input line 588.
+Package pdftex.def Info: images/windowres.png  used on input line 591.
 (pdftex.def)             Requested size: 358.50227pt x 116.70834pt.
  [39 <./images/windowres.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 621--622
+Underfull \hbox (badness 10000) in paragraph at lines 624--625
 
  []
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 639--641
+Underfull \hbox (badness 10000) in paragraph at lines 642--644
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 639--641
+Underfull \hbox (badness 10000) in paragraph at lines 642--644
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--646
+Underfull \hbox (badness 10000) in paragraph at lines 646--649
 
  []
 
 [41]
-Underfull \hbox (badness 10000) in paragraph at lines 654--655
+Underfull \hbox (badness 10000) in paragraph at lines 657--658
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 657--661
+Underfull \hbox (badness 10000) in paragraph at lines 660--664
 
  []
 
 [42]
-<images/examplepost.png, id=582, 680.5425pt x 135.50626pt>
+<images/examplepost.png, id=584, 680.5425pt x 135.50626pt>
 File: images/examplepost.png Graphic file (type png)
 <use images/examplepost.png>
-Package pdftex.def Info: images/examplepost.png  used on input line 672.
+Package pdftex.def Info: images/examplepost.png  used on input line 675.
 (pdftex.def)             Requested size: 398.33858pt x 79.31528pt.
  [43 <./images/examplepost.png>]
-<images/llmextwo.png, id=590, 687.56876pt x 508.90125pt>
+<images/llmextwo.png, id=592, 687.56876pt x 508.90125pt>
 File: images/llmextwo.png Graphic file (type png)
 <use images/llmextwo.png>
-Package pdftex.def Info: images/llmextwo.png  used on input line 687.
+Package pdftex.def Info: images/llmextwo.png  used on input line 690.
 (pdftex.def)             Requested size: 398.33858pt x 294.82903pt.
  [44 <./images/llmextwo.png>] [45]
-<images/analysisres.png, id=603, 694.595pt x 630.355pt>
+<images/analysisres.png, id=605, 694.595pt x 630.355pt>
 File: images/analysisres.png Graphic file (type png)
 <use images/analysisres.png>
-Package pdftex.def Info: images/analysisres.png  used on input line 728.
+Package pdftex.def Info: images/analysisres.png  used on input line 731.
 (pdftex.def)             Requested size: 398.33858pt x 361.5087pt.
  [46 <./images/analysisres.png>]
-<images/failanalysis.png, id=611, 684.5575pt x 531.9875pt>
+<images/failanalysis.png, id=613, 684.5575pt x 531.9875pt>
 File: images/failanalysis.png Graphic file (type png)
 <use images/failanalysis.png>
-Package pdftex.def Info: images/failanalysis.png  used on input line 738.
+Package pdftex.def Info: images/failanalysis.png  used on input line 741.
 (pdftex.def)             Requested size: 398.33858pt x 309.56764pt.
  [47 <./images/failanalysis.png>] [48] [49] [50]
 Chapter 6.
 [51
 
 ] [52] [53] [54]
-Overfull \hbox (4.26157pt too wide) in paragraph at lines 825--827
+Overfull \hbox (4.26157pt too wide) in paragraph at lines 828--830
 []\T1/cmr/m/n/12 Additionally, our re-search high-lights the ef-fec-tive-ness of cre-at-ing cus-tomized,
  []
 
 [55]
-Overfull \hbox (0.46397pt too wide) in paragraph at lines 841--842
+Overfull \hbox (0.46397pt too wide) in paragraph at lines 844--845
 \T1/cmr/m/n/12 When de-vel-op-ing mod-els that use ex-ter-nal li-braries, such as gen-sim's Word2Vec
  []
 
@@ -985,63 +990,63 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] [61] [62] [63]
 Appendix B.
-<images/featvector.png, id=696, 612.2875pt x 365.365pt>
+<images/featvector.png, id=698, 612.2875pt x 365.365pt>
 File: images/featvector.png Graphic file (type png)
 <use images/featvector.png>
-Package pdftex.def Info: images/featvector.png  used on input line 956.
+Package pdftex.def Info: images/featvector.png  used on input line 959.
 (pdftex.def)             Requested size: 398.33858pt x 237.69627pt.
-<images/epochres.png, id=697, 357.335pt x 445.665pt>
+<images/epochres.png, id=699, 357.335pt x 445.665pt>
 File: images/epochres.png Graphic file (type png)
 <use images/epochres.png>
-Package pdftex.def Info: images/epochres.png  used on input line 963.
+Package pdftex.def Info: images/epochres.png  used on input line 966.
 (pdftex.def)             Requested size: 258.91763pt x 322.93904pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/bestword2vec.png, id=698, 514.92375pt x 481.8pt>
+<images/bestword2vec.png, id=700, 514.92375pt x 481.8pt>
 File: images/bestword2vec.png Graphic file (type png)
 <use images/bestword2vec.png>
-Package pdftex.def Info: images/bestword2vec.png  used on input line 970.
+Package pdftex.def Info: images/bestword2vec.png  used on input line 973.
 (pdftex.def)             Requested size: 358.50227pt x 335.44919pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/sentence.png, id=699, 728.7225pt x 1401.235pt>
+<images/sentence.png, id=701, 728.7225pt x 1401.235pt>
 File: images/sentence.png Graphic file (type png)
 <use images/sentence.png>
-Package pdftex.def Info: images/sentence.png  used on input line 977.
+Package pdftex.def Info: images/sentence.png  used on input line 980.
 (pdftex.def)             Requested size: 278.83578pt x 536.15239pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/vecsentence.png, id=700, 605.26125pt x 364.36125pt>
+<images/vecsentence.png, id=702, 605.26125pt x 364.36125pt>
 File: images/vecsentence.png Graphic file (type png)
 <use images/vecsentence.png>
-Package pdftex.def Info: images/vecsentence.png  used on input line 984.
+Package pdftex.def Info: images/vecsentence.png  used on input line 987.
 (pdftex.def)             Requested size: 398.33858pt x 239.79532pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/table_setA.png, id=701, 545.03625pt x 384.43625pt>
+<images/table_setA.png, id=703, 545.03625pt x 384.43625pt>
 File: images/table_setA.png Graphic file (type png)
 <use images/table_setA.png>
-Package pdftex.def Info: images/table_setA.png  used on input line 991.
+Package pdftex.def Info: images/table_setA.png  used on input line 994.
 (pdftex.def)             Requested size: 398.33858pt x 280.96461pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/table_setB.png, id=702, 545.03625pt x 384.43625pt>
+<images/table_setB.png, id=704, 545.03625pt x 384.43625pt>
 File: images/table_setB.png Graphic file (type png)
 <use images/table_setB.png>
-Package pdftex.def Info: images/table_setB.png  used on input line 998.
+Package pdftex.def Info: images/table_setB.png  used on input line 1001.
 (pdftex.def)             Requested size: 398.33858pt x 280.96461pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/table_setC.png, id=703, 545.03625pt x 384.43625pt>
+<images/table_setC.png, id=705, 545.03625pt x 384.43625pt>
 File: images/table_setC.png Graphic file (type png)
 <use images/table_setC.png>
-Package pdftex.def Info: images/table_setC.png  used on input line 1005.
+Package pdftex.def Info: images/table_setC.png  used on input line 1008.
 (pdftex.def)             Requested size: 398.33858pt x 280.96461pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1094,42 +1099,52 @@ Underfull \hbox (badness 1297) in paragraph at lines 53--53
 [71
 
 ]
-Overfull \hbox (30.62213pt too wide) in paragraph at lines 65--65
+Underfull \hbox (badness 2293) in paragraph at lines 60--60
+[]\T1/cmr/m/n/12 GitHub.  Au-to-matic iden-ti-fi-ca-tion of con-fig-u-ra-tion er-rors from stack
+ []
+
+
+Overfull \hbox (20.94864pt too wide) in paragraph at lines 60--60
+\T1/cmtt/m/n/12 automatic-[]identification-[]of-[]configuration-[]errors-[]in-[]stackoverflow$[]\T1/cmr/m/n/12 .
+ []
+
+
+Overfull \hbox (30.62213pt too wide) in paragraph at lines 72--72
 \T1/cmtt/m/n/12 facebook-[]outage-[]what-[]went-[]wrong-[]and-[]why-[]did-[]it-[]take-[]so-[]long-[]to-[]fix$[]\T1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 5161) in paragraph at lines 72--72
+Underfull \hbox (badness 5161) in paragraph at lines 79--79
 []\T1/cmr/m/n/12 K. T. Hanna.  What is a sys-tem ad-min-is-tra-tor?  Net-work-
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 72--72
+Underfull \hbox (badness 2894) in paragraph at lines 79--79
 \T1/cmr/m/n/12 ing, 2021.  URL []$\T1/cmtt/m/n/12 https : / / www . techtarget . com / searchnetworking /
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 89--89
+Underfull \hbox (badness 2828) in paragraph at lines 96--96
 []\T1/cmr/m/n/12 S. Ja-nard-han.  Up-date about the oc-to-ber 4th out-age.  En-gi-neer-
  []
 
 [72]
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
 []\T1/cmr/m/n/12 OWASP Foun-da-tion.  Owasp web se-cu-rity test-ing guide.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
 \T1/cmr/m/n/12 OWASP Foun-da-tion, 2023.  URL []$\T1/cmtt/m/n/12 https : / / owasp . org /
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 145--145
+Underfull \hbox (badness 1331) in paragraph at lines 152--152
 \T1/cmtt/m/n/12 www-[]project-[]web-[]security-[]testing-[]guide/$[]\T1/cmr/m/n/12 .  Ac-cessed: 2023-07-24.
  []
 
 [73]
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 []$\T1/cmtt/m/n/12 https : / / radimrehurek . com / gensim / auto _ examples / tutorials / run _
  []
 
@@ -1137,21 +1152,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--227
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: B40DD8BA50C8F47C6E7F46626EF30F85;4273.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: ECBDC3D364308F14EE2D62E48A6BEFF9;3884.
+(rerunfilecheck)             Checksum: B5BE0069A3DB8BE17EA216DA5EC7FD93;3920.
  ) 
 Here is how much of TeX's memory you used:
- 28688 strings out of 476025
- 559580 string characters out of 5790018
+ 28695 strings out of 476025
+ 559666 string characters out of 5790018
  1867388 words of memory out of 5000000
- 48516 multiletter control sequences out of 15000+600000
+ 48522 multiletter control sequences out of 15000+600000
  525121 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,13n,131p,2217b,981s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 91i,13n,131p,2224b,981s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on thesis.pdf (80 pages, 2348342 bytes).
+Output written on thesis.pdf (80 pages, 2349316 bytes).
 PDF statistics:
- 932 PDF objects out of 1000 (max. 8388607)
- 783 compressed objects within 8 object streams
- 135 named destinations out of 1000 (max. 500000)
+ 937 PDF objects out of 1000 (max. 8388607)
+ 788 compressed objects within 8 object streams
+ 136 named destinations out of 1000 (max. 500000)
  324 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex thesis"] 1705265565 "thesis.aux" "thesis.bbl" "thesis" 1705268679 0
-  "./literature.bib" 1705151899 14404 c5d78562c47633d6a97666f925a56897 ""
+["bibtex thesis"] 1705270180 "thesis.aux" "thesis.bbl" "thesis" 1705270198 0
+  "./literature.bib" 1705269831 14749 e96e08f51f8afaada36800b6043f44e8 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "thesis.aux" 1705268679 27791 ed646c2aa9045fe7a6a040f1970ee838 "pdflatex"
+  "thesis.aux" 1705270198 27901 6691a9d156a319dbed0e4b67db57c91d "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1705268675 "/Users/ferris/Developer/Bachelor/automatic-identification-of-configuration-errors-in-stackoverflow/Thesis/thesis.tex" "thesis.pdf" "thesis" 1705268679 0
-  "/Users/ferris/Developer/Bachelor/automatic-identification-of-configuration-errors-in-stackoverflow/Thesis/thesis.tex" 1705268675 146905 9b1f4010f857283d47fed63306db1121 ""
+["pdflatex"] 1705270194 "/Users/ferris/Developer/Bachelor/automatic-identification-of-configuration-errors-in-stackoverflow copy/Thesis/thesis.tex" "thesis.pdf" "thesis" 1705270198 0
+  "/Users/ferris/Developer/Bachelor/automatic-identification-of-configuration-errors-in-stackoverflow copy/Thesis/thesis.tex" 1705270194 147180 1ada98d167c66ecd7f9304c18406be05 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -227,12 +227,12 @@
   "images/vecsentence.png" 1705151899 132130 b24a2066fd6e3cf9a20ed4047a4813fc ""
   "images/windowres.png" 1705151899 54031 659653a52f3082b388c167d55baf81a2 ""
   "swsLeipzig.cls" 1705151899 13293 0190d9e2cb7ac372cf74cf42da4c9ae7 ""
-  "thesis.aux" 1705268679 27791 ed646c2aa9045fe7a6a040f1970ee838 "pdflatex"
-  "thesis.bbl" 1705265565 14082 13fe95f2bf3cf3e73d45528e6996e7da "bibtex thesis"
-  "thesis.brf" 1705268679 3884 ecbdc3d364308f14ee2d62e48a6beff9 "pdflatex"
-  "thesis.out" 1705268679 4273 b40dd8ba50c8f47c6e7f46626ef30f85 "pdflatex"
-  "thesis.tex" 1705268675 146905 9b1f4010f857283d47fed63306db1121 ""
-  "thesis.toc" 1705268679 4878 dc06d2f15002afc1bd14440b7dcc3b62 "pdflatex"
+  "thesis.aux" 1705270198 27901 6691a9d156a319dbed0e4b67db57c91d "pdflatex"
+  "thesis.bbl" 1705270180 14381 65f61cce00653694f300284fc84e9886 "bibtex thesis"
+  "thesis.brf" 1705270198 3920 b5be0069a3db8be17ea216da5ec7fd93 "pdflatex"
+  "thesis.out" 1705270198 4273 b40dd8ba50c8f47c6e7f46626ef30f85 "pdflatex"
+  "thesis.tex" 1705270194 147180 1ada98d167c66ecd7f9304c18406be05 ""
+  "thesis.toc" 1705270198 4878 dc06d2f15002afc1bd14440b7dcc3b62 "pdflatex"
   (generated)
   "thesis.aux"
   "thesis.brf"
