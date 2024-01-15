@@ -1,4 +1,4 @@
-\begin{thebibliography}{46}
+\begin{thebibliography}{45}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -57,11 +57,6 @@ Vojtech Franc and V{\'a}clav Hlav{\'a}c.
 \newblock GitHub, 2023.
 \newblock URL \url{https://github.com/Nachtschrecken/automatic-identification-of-configuration-errors-in-stackoverflow}.
 \newblock Accessed: 2024-01-14.
-
-\bibitem[Grebhahn et~al.(2019)Grebhahn, Siegmund, and Apel]{grebhahn:2019}
-Alexander Grebhahn, Norbert Siegmund, and Sven Apel.
-\newblock Predicting performance of software configurations: There is no silver bullet.
-\newblock \emph{arXiv preprint arXiv:1911.12643}, 2019.
 
 \bibitem[{Guardian News and Media}(2021)]{guardian:2021}
 {Guardian News and Media}.

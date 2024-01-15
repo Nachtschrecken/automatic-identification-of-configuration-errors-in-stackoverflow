@@ -1,0 +1,140 @@
+\glsdefs@newdocentry{cmpace}%
+{%
+name={\acronymfont {\glsentryshort {cmpace}}},%
+sort={CM-PaCE},%
+type={main},%
+first={CM-PaCE},%
+firstplural={CM-PaCEs},%
+text={CM-PaCE},%
+plural={CM-PaCEs},%
+description={Classification Model for Posts about Configuration Errors},%
+descriptionplural={Classification Model for Posts about Configuration Errors},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Classification Model for Posts about Configuration Errors},%
+longplural={Classification Model for Posts about Configuration Errorss},%
+short={CM-PaCE},%
+shortplural={CM-PaCEs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{llm}%
+{%
+name={\acronymfont {\glsentryshort {llm}}},%
+sort={LLM},%
+type={main},%
+first={LLM},%
+firstplural={LLMs},%
+text={LLM},%
+plural={LLMs},%
+description={Large Language Model},%
+descriptionplural={Large Language Model},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Large Language Model},%
+longplural={Large Language Models},%
+short={LLM},%
+shortplural={LLMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{gpt}%
+{%
+name={\acronymfont {\glsentryshort {gpt}}},%
+sort={GPT},%
+type={main},%
+first={GPT},%
+firstplural={GPTs},%
+text={GPT},%
+plural={GPTs},%
+description={Generative Pre-trained Transformer},%
+descriptionplural={Generative Pre-trained Transformer},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Generative Pre-trained Transformer},%
+longplural={Generative Pre-trained Transformers},%
+short={GPT},%
+shortplural={GPTs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{svm}%
+{%
+name={\acronymfont {\glsentryshort {svm}}},%
+sort={SVM},%
+type={main},%
+first={SVM},%
+firstplural={SVMs},%
+text={SVM},%
+plural={SVMs},%
+description={Support Vector Machine},%
+descriptionplural={Support Vector Machine},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Support Vector Machine},%
+longplural={Support Vector Machines},%
+short={SVM},%
+shortplural={SVMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{cot}%
+{%
+name={\acronymfont {\glsentryshort {cot}}},%
+sort={CoT},%
+type={main},%
+first={CoT},%
+firstplural={CoTs},%
+text={CoT},%
+plural={CoTs},%
+description={Chain-of-Thought},%
+descriptionplural={Chain-of-Thought},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Chain-of-Thought},%
+longplural={Chain-of-Thoughts},%
+short={CoT},%
+shortplural={CoTs},%
+counter={page},%
+parent={},%
+%
+}%
+

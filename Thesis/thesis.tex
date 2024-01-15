@@ -14,7 +14,7 @@
 \ThesisSetDateOfBirth{1}{1}{2000}
 \ThesisSetPlaceOfBirth{Ahlen}
 
-\ThesisSetSupervisors{Prof.\ Dr.\ Norbert Siegmund,Prof.\ Dr.\ Unknown Yet}
+\ThesisSetSupervisors{Prof.\ Dr.\ Norbert Siegmund,M.Sc. Sebastian Simon}
 
 \ThesisSetSubmissionDate{23}{1}{2024}
 
@@ -43,9 +43,11 @@
 % -------------------------------
 \usepackage{xcolor}
 \usepackage{graphicx}
+\usepackage[nonumberlist]{glossaries}
 \usepackage{tcolorbox}
 \usepackage{amsmath}
 \usepackage{changepage}
+\usepackage{multirow}
 \tcbuselibrary{skins}
 \usepackage{soul}
 \newcommand{\bscom}[2]{%
@@ -60,13 +62,17 @@
 % Additional options to the hyperref package can be provided in the braces []
 \usehyperref[backref] % This will add back references in the bibliography
 
+\makeglossaries
+
 \begin{document}
 \begin{frontmatter}
   \begin{abstract}
-    This Bachelor's thesis addresses the critical challenge of identifying configuration errors in software systems, which can lead to problems ranging from poor performance to complete system failure. Due to the increasing complexity of modern systems, errors are often caused by human factors such as lack of expertise and poor communication. Using Stack Overflow, an online developer community, as a data source to classify and analyze configuration errors, this thesis proposes a two-part approach. Firstly, a machine learning model named CM-PaCE is used to recognize patterns in discussions about configuration errors, utilizing the Word2Vec and SVM methods. Secondly, the large language model (LLM) GPT-3.5 by OpenAI is employed to perform similar tasks with a focus on prompt engineering. Both approaches are compared in terms of efficiency, accuracy, and real-world applicability. Subsequently, the LLM is used to analyze datasets for configuration errors, including the type of configuration error, impact of the configuration error, and technology stack involved. This thesis aims to provide a comprehensive overview of configuration errors and their implications. It also aims to investigate the potential applications and limitations of traditional machine learning methods and LLM approaches in this domain.
+    Identifying configuration errors in software systems is a critical challenge, since they can lead to problems ranging from poor performance to complete system failure. Due to the increasing complexity of modern systems, errors are often caused by human factors such as lack of expertise and poor communication. Using Stack Overflow, an online developer community, as a data source to classify and analyze configuration errors, this problem can be approached. On the one hand, a machine learning model named \gls{cmpace} is used to recognize patterns in discussions about configuration errors, utilizing the Word2Vec and \gls{svm} methods. On the other hand, the large language model (LLM) \gls{gpt}-3.5 by OpenAI is employed to perform similar tasks with a focus on prompt engineering. Both approaches are compared in terms of efficiency, accuracy, and real-world applicability. Additionally, the \gls{llm} is used to analyze the dataset for configuration errors, including the type of configuration error, impact of the configuration error, and technology stack involved. The findings offer valuable insight into the applicability of utilizing different machine learning approaches, in addition to a comprehensive overview of configuration errors and their implications.
   \end{abstract}
 
   \tableofcontents
+
+  \printglossaries
 
   %\chapter*{Acknowledgements} % optional
   %I thank the authors of the swsLeipzig template for their excellent work!
@@ -289,7 +295,7 @@ A major benefit of GPT-3.5 is the ability to define domain-specific knowledge fr
 and directing the AI to respond in respect to a role it was assigned. In this study, we make requests to the API of \citeauthor{openai:2023} using the gpt3.5-turbo model to classify if SoF posts are related to configuration errors, and if so, extract information about these configuration errors if available such as the involved technologies, type, cause, and solution.
 
 \subsubsection{Prompt Engineering}\label{sec:pe}
-The use of GPT-3.5 for our task substantially relies on the process of prompt engineering. According to \citet{white:2023} ``a prompt sets the context for the conversation and tells the LLM what information is important and what the desired output form and content should be''. The general process of prompt engineering includes identifying the task, choosing the right language, providing context, and experimenting to get the desired output. That way we can increase the probability that the LLM will produce a desired answer with proper context (\citet{reynolds:2021}). There are three types of prompt engineering which we will use to approach the task in different ways.
+The use of GPT-3.5 for our task substantially relies on the process of prompt engineering. According to \citet{white:2023} ``a prompt sets the context for the conversation and tells the LLM what information is important and what the desired output form and content should be''. The general process of prompt engineering includes identifying the task, choosing the right language, providing context, and experimenting to get the desired output. That way, we can increase the probability that the LLM will produce a desired answer with proper context (\citet{reynolds:2021}). There are three types of prompt engineering which we will use to approach the task in different ways.
 
 \begin{itemize}
   \item \textbf{Zero-Shot Prompting:} The Zero-Shot Learning approach for prompt engineering of LLMs (\citet{luo:2023}, \citet{wei:2021}) works by 
@@ -306,14 +312,14 @@ Prompt engineering is an important process when working with LLMs like gpt3.5-tu
 on the domain knowledge of the model, which in turn depends on provided information that it can construct and work on. This intercedes to improve the performance of LLMs, making them more usable for tasks such as our retrieval approach. However, since prompt engineering is a relatively new field, there are some issues to pay attention to. For one, through proper prompt engineering, the LLM may be able to generate content that it would not normally generate. This process is called `Jailbreaking' and can be abused by malicious users to generate harmful answers, like writing code to program a virus (\citet{liujailbreaking:2023}). `Hallucination' is another unintended behavior of LLMs, where the model generates unrelated or unreal content for prompts that did not intentionally aim to achieve this. In the end, prompt engineering is a complex task that can be used to leverage the full potential from LLMs.
 
 \chapter{Related Work}\label{related_work}
-In this Section we will introduce some works that capture ideas related to our approach on tackling configuration errors as well as new ideas in the field of prompt engineering.
+In this section, we will introduce some works that capture ideas related to our approach on tackling configuration errors as well as new ideas in the field of prompt engineering.
 
 \subsubsection{Challenges in Docker Development: A Large-scale Study Using Stack Overflow}
 This study by \citet{haque:2020} presents a large-scale empirical study that identifies practitioners' perspectives on Docker technology by mining Stack Overflow (SoF) posts. The authors find that most developers use SoF to ask questions about a wide range of Docker topics, including framework development, application deployment, continuous integration, web server configuration, and more. The team used a tag search to collect a dataset of Docker-related posts, searching for the tag "docker" and collecting a large number of documents for analysis. Most of the posts fall into the application development, configuration, and networking categories. They found that the posts related to status monitoring, data transfer, and user authentication are more popular among developers compared to the other topics. Specifically, developers face challenges with Web browser issues, network errors, and memory management. In addition, there is a lack of experts in this area. In the context of our work, this study provided a different perspective on collecting Stack Overflow posts and a way to see how developers ask questions about configuration bugs. In this way, we can better understand how to analyze a set of retrieved posts, while looking at the challenge of manually collecting posts from a different perspective.
 
 \subsubsection{Dimensions of software configuration: on the configuration context in modern software development}
 \citet{siegmund:2020} conducted qualitative research by interviewing various developers from different backgrounds, 
-including developers and a cloud foundation architect. The paper provides a comprehensive overview of the different dimensions of software configuration, starting with a definition of configurations and different interpretations of it. Following the evaluation of the interviews, the authors identified eight dimensions of software configuration, including Type, Artifact, Complexity, and Intent. For example, the type of configuration can refer to the various types of artifacts that are configured, such as software, hardware, or infrastructure. It may also refer to several configuration options for these artifacts, including manual and automatic configuration. Next, the paper proposes terminology and context for future research, helping them to better understand and react to configuration errors. The authors continue with best practices to react to configuration errors and the significance of performance engineering, as well as some threats to validity, with the low number of interviewees being the main issue of validity. Finally, the authors conclude that their model contributes to future research, closing with further lessons on configuration such as ``Configuration is code, but often without a well-defined grammar and type system.'' (\citet{siegmund:2020}). In summary, this paper helped to better understand the realm of configuration errors, categorize various features of configuration errors, and learn about best practices as well as ideas for application, including performance optimization. In context to our work, these insights helped to facilitate an understanding of configuration errors and how developers think about them. While this work focussed on the definition and different categories of configuration, these objective thoughts by developers still play a large role when analyzing Stack Overflow posts, which are written by developers as well. That way we can further understand how people ask questions about configuration errors, how to assess their domain knowledge about a topic, and what important features may result from their problem.
+including developers and a cloud foundation architect. The paper provides a comprehensive overview of the different dimensions of software configuration, starting with a definition of configurations and different interpretations of it. Following the evaluation of the interviews, the authors identified eight dimensions of software configuration, including Type, Artifact, Complexity, and Intent. For example, the type of configuration can refer to the various types of artifacts that are configured, such as software, hardware, or infrastructure. It may also refer to several configuration options for these artifacts, including manual and automatic configuration. Next, the paper proposes terminology and context for future research, helping them to better understand and react to configuration errors. The authors continue with best practices to react to configuration errors and the significance of performance engineering, as well as some threats to validity, with the low number of interviewees being the main issue of validity. Finally, the authors conclude that their model contributes to future research, closing with further lessons on configuration such as ``Configuration is code, but often without a well-defined grammar and type system.'' (\citet{siegmund:2020}). In summary, this paper helped to better understand the realm of configuration errors, categorize various features of configuration errors, and learn about best practices as well as ideas for application, including performance optimization. In context to our work, these insights helped to facilitate an understanding of configuration errors and how developers think about them. While this work focussed on the definition and different categories of configuration, these objective thoughts by developers still play a large role when analyzing Stack Overflow posts, which are written by developers as well. That way, we can further understand how people ask questions about configuration errors, how to assess their domain knowledge about a topic, and what important features may result from their problem.
 
 \subsubsection{Systems approaches to tackling configuration errors}
 This paper by \citet{xuzhou:2015} gives a good introduction to the topic of configuration errors and introduces some 
@@ -324,23 +330,22 @@ This paper by \citet{tian:2020} introduces ``an approach to automatically identi
 
 \subsubsection{Automated Diagnosis of Software Configuration Errors}
 In this paper, \citet{zhang:2013} propose a technique with a proper tool implementation called ConfDiagnoser 
-``to identify the root cause of a configuration error --- a single configuration option that can be changed to produce desired behavior''. This approach uses static analysis, dynamic profiling, and statistical analysis to automate a traceback to the underlying root problem. That way configuration errors can be traced back according to the execution of commands from the error to the initial beginning in the system, and evaluate which configuration changes resolve the issue. Their major findings include that their technique ``is effective in diagnosing both crashing and non-crashing configuration errors with a small profile database''. However, this approach is also not suited for bigger complexity, since we already talked about the fact that diagnosers will have longer runtimes and problems finding errors with more configuration options being available. Nonetheless, we believe that our technique is a great addition to the proposed future work by the authors, which seeks to fix configuration errors. Using our approach, the users can continue to further analyze the configuration errors by the root cause they found with ConfDiagnoser.
-
-\subsubsection{Predicting Performance of Software Configurations: There is no Silver Bullet}
-Predicting the performance of software configurations is a difficult topic which this paper aims to explore. \citet{grebhahn:2019} argue that there is no ``silver bullet'' that can be utilized to predict the performance of software configurations with high accuracy. Rather, the authors propose a combination of various machine learning approaches to improve the accuracy for performance prediction. In order to compare the mean prediction accuracy when predicting the performance across all configurations, the authors took into account six machine-learning techniques, 18 sampling strategies, and six subject software systems (\citet{grebhahn:2019}). A dataset of 1,000 software configurations is used in the study to compare the performance of several machine learning techniques, including linear regression, support vector machine, decision trees, as well as a combination of different techniques. The learning technique and sample plan both had a significant impact on prediction accuracy, the authors discovered. They also noted that in most situations, some learning techniques, such as random forests, perform better than others, while the combination of different techniques achieved the best accuracy for prediction software configuration performance. Additionally, because the prediction accuracy is highly dependent on the subject system, there is no learning technique and sampling strategy combination that is consistently the best option when balancing accuracy and measurement overhead. Overall, this study helps to recall that it is important for our approach to consider the specific factors that are relevant to the particular system that is being studied. This will get important when we discuss the application of our approach to analyze configuration errors to better understand them. Finally, the fact that machine learning techniques cannot properly replace sound engineering practices further calls for a method to retrieve information about configuration errors to tackle them in advance.
-
-\subsubsection{Finetuned Language Models Are Zero-Shot Learners}
-In this paper, \citet{wei:2021} investigate a straightforward technique for enhancing the zero-shot learning 
-capabilities of language models. They work with several prompt engineering methods we presented earlier, showing that instruction tuning significantly improves the capabilities of zero-shot learning on unseen tasks. These tasks include natural language inference, translation, and question answering. The goal of instruction tuning is to teach the language model how to follow instructions. Their methods include taking ``a 137B parameter pretrained language model and instruction tune it on over 60 NLP datasets verbalized via natural language instruction templates'' (\citet{wei:2021}). Their instruction-tuned model, called FLAN, is then evaluated on unseen task types, significantly improving the performance without fine-tuning as well as surpassing the zero-shot and the few-shot GPT-3 model. This is possible because fine-tuned language models are able to learn the relationships between various concepts, even if they have never seen those concepts together before. Furthermore, the number of fine-tuning datasets, model scale, and natural language instructions are an important factor for successful instruction tuning. Overall, the paper provides a promising new approach to zero-shot learning with the potential to be used to learn new tasks, without the need for extensive training data. This helps to better approach upcoming challenges with zero-shot prompting and expands the number of methods to use.
-
-\subsubsection{Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm}
-This work by \citet{reynolds:2021} investigates the few-shot paradigm regarding its performance. The authors 
-propose methods for prompt programming, a technique where LLMs solve a wide range of tasks by providing them with a short, well constructed prompt. Their methods include constructing prompts that cause a language model to ``break a problem into components before producing a verdict'' (\citet{reynolds:2021}), followed by the concept of metaprompt programming, which makes the language model write a well-constructed prompt by itself to solve a task. The authors propose future research on this concept of metaprompt programming, stating that ``We are entering a new paradigm of human-computer interaction in which anyone who is fluent in natural language can be a programmer'' (\citet{reynolds:2021}). In summary, this work presents a new method for prompt programming that is more powerful than traditional methods, making it useful for our research by using the breaking-down method of a language model as one method for the posts we want to categorize.
+``to identify the root cause of a configuration error --- a single configuration option that can be changed to produce desired behavior''. This approach uses static analysis, dynamic profiling, and statistical analysis to automate a traceback to the underlying root problem. That way, configuration errors can be traced back according to the execution of commands from the error to the initial beginning in the system, and evaluate which configuration changes resolve the issue. Their major findings include that their technique ``is effective in diagnosing both crashing and non-crashing configuration errors with a small profile database''. However, this approach is also not suited for bigger complexity, since we already talked about the fact that diagnosers will have longer runtimes and problems finding errors with more configuration options being available. Nonetheless, we believe that our technique is a great addition to the proposed future work by the authors, which seeks to fix configuration errors. Using our approach, the users can continue to further analyze the configuration errors by the root cause they found with ConfDiagnoser.
 
 \chapter{Methodology}\label{methodology}
 In this section, we will discuss the overall methodology of our study and further explain the importance of our research 
-questions, `\textbf{How do different Machine 
-Learning Approaches compare to retrieve Stack Overflow posts about configuration errors?}' and `\textbf{How do LLMs help to analyze retrieved datasets?}'. The first part focuses on collecting the necessary data from Stack Overflow using various criteria and keywords. The next part presents the methodology for our first approach, which is a traditional machine learning technique using Word2Vec and SVM. Then we will present the methodology for the second approach, which uses the LLM gpt3.5-turbo by OpenAI. After this, we will address the second research question in the third experimental setup, using a retrieved set of posts, which will be used to analyze configuration errors using the gpt3.5-turbo model as the performing LLM. Figure \ref{fig:figure41}--\ref{fig:figure44} illustrate our methodology for the dataset creation, first experiment, second experiment, and third experiment.
+questions, 
+
+\begin{enumerate}
+  \item \textbf{How do different Machine Learning Approaches compare to retrieve Stack Overflow posts about configuration errors?}
+  \item \textbf{How do LLMs help to analyze retrieved datasets?}
+\end{enumerate}
+
+The first part focuses on collecting the necessary data from Stack Overflow using various criteria and keywords. The next part presents the methodology for our first approach, which is a traditional machine learning technique using Word2Vec and SVM. Then we will present the methodology for the second approach, which uses the LLM gpt3.5-turbo by OpenAI. After this, we will address the second research question in the third experimental setup, using a retrieved set of posts, which will be used to analyze configuration errors using the gpt3.5-turbo model as the performing LLM.
+
+\section{Dataset Creation}
+The goal is to collect Stack Overflow (SoF) posts that can be used to train the model to detect configuration errors 
+in those posts. After successfully training the model, it should be given another set of posts to evaluate its effectiveness. Since we are using an unsupervised machine learning approach, we had to manually label each collected post as either True or False, indicating whether the post is indeed related to configuration errors according to our criteria. For an overview of this methodology, see Figure \ref{fig:figure41}
 
 \begin{figure}[h]
   \includegraphics[width=1\textwidth]{images/figure1.png}
@@ -348,41 +353,49 @@ Learning Approaches compare to retrieve Stack Overflow posts about configuration
   \label{fig:figure41}
 \end{figure}
 
-\begin{figure}[h]
-  \includegraphics[width=1\textwidth]{images/figure2.png}
-  \caption{Experiment 1: Creation of CM-PaCE model}
-  \label{fig:figure42}
-\end{figure}
-
-\begin{figure}[h]
-  \includegraphics[width=1\textwidth]{images/figure3.png}
-  \caption{Experiment 2: Using LLM for Classification Task}
-  \label{fig:figure43}
-\end{figure}
-
-\begin{figure}[h]
-  \includegraphics[width=1\textwidth]{images/figure4.png}
-  \caption{Experiment 3: Analysis utilizing LLM}
-  \label{fig:figure44}
-\end{figure}
-
-\section{Dataset Creation}
-The goal is to collect Stack Overflow (SoF) posts that can be used to train the model to detect configuration errors 
-in those posts. After successfully training the model, it should be given another set of posts to evaluate its effectiveness. Since we are using an unsupervised machine learning approach, we had to manually label each collected post as either True or False, indicating whether the post is indeed related to configuration errors according to our criteria.
-
 \subsubsection{The Data Source}
 To collect the posts for our dataset, we decided to take an official data dump of Stack Overflow, which can be found 
 on archive.org (\citet{stackexchange:2023}), provided by Stack Exchange, Inc. Using this data dump, we crawled and parsed the collected posts into our own dataset. Each post had various metadata, such as an unique ID, a title, a creation date, and more. For our purposes, only the title, ID, score (user rating of the original post), and body were of interest. The rest of the metadata is still open for future research and optimization of the model, such as the number of views to further improve the retrieval of relevant posts. At the time of this work, the posts ranged from July 2008 to the most recent posts in the data dump, which are from March 2023. From these posts, we proceeded to extract our collection of posts for the training and test sets.
 
 \subsubsection{Collection Criteria}
 For the criteria to manually collect our dataset, we considered the work of \citet{tian:2020}. The authors had a similar 
-task to ours, where they tested different machine learning methods to identify architecture smells in Stack Overflow posts. The authors collected 395 posts for their training and test set, also split 90/10. This assured us that our goal of 500 posts might be enough for the task. Next, the authors proposed seven criteria by which they decided whether a post was positively labeled (architecture smell related) or not. After testing some of these criteria with minor modifications to fit our domain, we decided to modify each criterion to consider configuration errors instead. This gave us a set of seven criteria to manually collect the posts for our dataset, presented in Figure \ref{fig:figure499}. Each post is labeled `True' if at least one criterion for related posts applies, while the post is labeled `False' if criterion C7 applies.
+task to ours, where they tested different machine learning methods to identify architecture smells in Stack Overflow posts. The authors collected 395 posts for their training and test set, also split 90/10. This assured us that our goal of 500 posts might be enough for the task. Next, the authors proposed seven criteria by which they decided whether a post was positively labeled (architecture smell related) or not. After testing some of these criteria with minor modifications to fit our domain, we decided to modify each criterion to consider configuration errors instead. This gave us a set of seven criteria to manually collect the posts for our dataset, presented in Table \ref{tab:table5993}. Each post is labeled `True' if at least one criterion for related posts applies, while the post is labeled `False' if criterion C7 applies.
 
-\begin{figure}[h]
-  \includegraphics[width=1\textwidth]{images/criterions.png}
-  \caption{Overview of the criterions used for the selection process}
-  \label{fig:figure499}
-\end{figure}
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage{graphicx}
+\begin{table}[]
+  \caption{Overview of different alpha, hs, and sg values impacting the similarity between `config' and `error'}
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{l|l|l}
+   &
+    Criterion ID &
+    Description \\ \hline
+  \multirow{6}{*}{\begin{tabular}[c]{@{}l@{}}Criteria for labeling \\ configuration error \\ related posts\end{tabular}} &
+    \begin{tabular}[c]{@{}l@{}}C1: Description of \\ configuration error\end{tabular} &
+    \begin{tabular}[c]{@{}l@{}}The description of a configuration \\ error by the author\end{tabular} \\ \cline{2-3} 
+   &
+    \begin{tabular}[c]{@{}l@{}}C2: Cause of \\ configuration error\end{tabular} &
+    \begin{tabular}[c]{@{}l@{}}Causes that lead to a configuration \\ error\end{tabular} \\ \cline{2-3} 
+   &
+    \begin{tabular}[c]{@{}l@{}}C3: Approach for \\ detecting and resolving\end{tabular} &
+    \begin{tabular}[c]{@{}l@{}}Methods used to detect/refactor \\ specific configuration errors\end{tabular} \\ \cline{2-3} 
+   &
+    \begin{tabular}[c]{@{}l@{}}C4: Tool for detecting \\ and resolving\end{tabular} &
+    \begin{tabular}[c]{@{}l@{}}Tools for detecting and resolving \\ specific configuration errors\end{tabular} \\ \cline{2-3} 
+   &
+    \begin{tabular}[c]{@{}l@{}}C5: Impact of \\ configuration error\end{tabular} &
+    \begin{tabular}[c]{@{}l@{}}Impact of a configuration error on \\ software development\end{tabular} \\ \cline{2-3} 
+   &
+    \begin{tabular}[c]{@{}l@{}}C6: Challenge of \\ detecting and resolving\end{tabular} &
+    \begin{tabular}[c]{@{}l@{}}Challenges identified in detecting \\ and resolving configuration errors\end{tabular} \\ \hline
+  \begin{tabular}[c]{@{}l@{}}Criterion for labeling \\ configuration error \\ unrelated posts\end{tabular} &
+    C7: Unrelated topic &
+    \begin{tabular}[c]{@{}l@{}}The post does not describe \\ configuration errors, for example \\ a post discussing optimal \\ configurations for Docker without \\ the presence of any problems\end{tabular}
+  \end{tabular}
+  \label{tab:table5993}
+  }
+  \end{table}
 
 These criteria helped us decide which posts to include in our dataset. Building on them, they provide a reliable 
 decision-making tool for the task of manually collecting the posts from Stack Overflow. While the negatively labeled posts have only one criterion, that the post does not contain a talk about configuration errors, it still contains a variety of similar posts, such as talks about configuration in general. In this way, we can exclude posts that contain the topic of configuration for conversations that are not related to specific errors. We made this decision to train the model not just on configuration keywords like `configuration', `config file', or services like `springboot', but to train the model on the specific features of a configuration error post. This reduces the risk of the model predicting the `true' label for posts that do not contain errors at all, such as discussions about the most efficient configuration tool for a given application. We also decided to include vague or difficult to understand posts to challenge the model's decisiveness in the process.
@@ -400,9 +413,19 @@ After collecting the ids of posts for our training set from Stack Overflow, we i
 full training set of these posts. Since the Stack Overflow data dump includes complete posts with metadata and HTML tags, preprocessing is necessary to prepare the data for model training. To achieve this aim, we formatted each entry from the manual selection to the desired format for our model. The final format includes only the body and our contributed label, which is True or False. We have saved all posts that matched the post IDs from the collection process. After completing this step, we obtained two datasets, each consisting of posts labeled as positive or negative, along with their respective metadata. We proceeded to format the body of these posts by removing any html tags as well as double quotation marks that interfere with the XML format. Finally, we merged both datasets to create the final dataset, which solely comprises the cleaned body and label. This final dataset will be utilized during the training process.
 
 \section{Experiment 1: CM-PaCE Approach}
+
+In this section we will present the methodology for our first experiment, which aims to create a classification model to classify posts from Stack Overflow that contain talk about configuration errors. We named our model CM-PaCE, Classification Model for Posts about Configuration Errors.
+For an overview of the methodology from this first experimental setup, see Figure \ref{fig:figure42}. 
+
 \subsubsection{Word2Vec}
 We selected Word2Vec to extract features from Stack Overflow posts because it was more suitable for the task and 
 considers the context of words. Word2Vec utilizes word embeddings, which are vector representations of words that effectively capture semantic and syntactic relationships. This is particularly beneficial for small documents with sparse information on unknown words. Word2Vec is a reliable and scalable algorithm, which is ideal for our purpose (\citet{mikolov:2013}). As previously discussed, we chose the Skip-Gram model due to its suitability for predicting the surrounding context words for a given word.
+
+\begin{figure}[h]
+  \includegraphics[width=1\textwidth]{images/figure2.png}
+  \caption{Experiment 1: Creation of CM-PaCE model}
+  \label{fig:figure42}
+\end{figure}
 
 To implement the Word2Vec algorithm, we utilized the gensim library in Python (\citet{rehurek:2022}). This open-source library offers 
 many models for natural language processing tasks, including topic modeling and information retrieval. While Word2Vec is a popular NLP algorithm, it is only one implementation, and gensim is an excellent tool for developing our feature extraction model. The Word2Vec model in the gensim library is customizable through its hyperparameters and can take a set of documents as input (\citet{rehurek:word2vec}). The resultant output comes in the form of word vectors which numerically represent the semantic and syntactic relationships between words. Put simply, after creating a lexicon of words from the corpus, these vectors signify the importance of words via numerical values. Gensim's vectors permit word comparison and yield a numerical value indicating the word pair's relationship. These vectors also rank the most similar words for a given target word based on their numerical proximity. They demonstrate each word's contextual significance and are key in training a sentence classification SVM model.
@@ -431,23 +454,25 @@ To evaluate the performance of our model's Word2Vec component, we conducted an a
 our domain. For this purpose, we utilized the word vector representation from the model to generate a list of the top 11 words with the highest relevance in the corpus. This enables visualization of the general topic of our dataset and evaluation of the initial results for accuracy. For instance, according to the Word2Vec model, good performance is indicated by the inclusion of top words like ``configuration'' (stemmed to ``configur''), ``error'', and other related terms associated with configuration errors. The training set is biased towards the topic of configuration, which encompasses posts that mention configuration without errors, resulting in ``configur'' being favored in the higher ranks. To determine the efficacy of the model, one can identify the most related words for a target word generated by the model. Gensim, as previously mentioned, provides access to various functions for processing word vectors and obtaining the most related words for a target. Through this method, it becomes feasible to assess the contextual validity of the model by correlating typical words in the domain of configuration errors to one another. For example, the term ``error'' was consistently the most related to ``configur'' across all hyperparameter variations, confirming the model's functionality.
 
 After conducting manual tests with various combinations of hyperparameters in our initial models, we identified a set 
-of hyperparameters which produced satisfactory results for different models trained on shuffled training sets in our domain. We maintained a record of each hyperparameter set by logging their values and the similarity results between terms like ``configur'' and ``error'', and then analyzing the most similar terms for the target words ``config'' and ``configur''. As a result, we settled on the following hyperparameters for the Word2Vec model in our top-performing models.\\
+of hyperparameters which produced satisfactory results for different models trained on shuffled training sets in our domain. We maintained a record of each hyperparameter set by logging their values and the similarity results between terms like ``configur'' and ``error'', and then analyzing the most similar terms for the target words ``config'' and ``configur''. As a result, we settled on the following hyperparameters for the Word2Vec model in our top-performing models.
 
-\begin{adjustwidth}{1cm}{0cm}
-`min\_count': 5\\
-`alpha': 0.01\\
-`sg': 1\\
-`hs': 1\\
-`window': 4\\
-`epochs': 500\\
-\end{adjustwidth}
+\newpage
+
+\begin{itemize}
+  \item `min\_count': 5
+  \item `alpha': 0.01
+  \item `sg': 1
+  \item `hs': 1
+  \item `window': 4
+  \item `epochs': 500
+\end{itemize}
 
 We achieved the best models through multiple trials based on our manual testing method. We selected a ``prime'' model 
 using these values for our final Word2Vec model. This model processes input posts in the same manner as the training process, including tokenization, stemming, preprocessing, and transformation of each word into its respective word vector. The result of this section of the final model will be a group of word vectors representing the word embeddings of the entirely preprocessed post. By utilizing these word vectors, we can employ the classification model to obtain an output for every post.
 
 \subsubsection{SVM}
 For the classification task, a SVM model utilizes feature vectors, akin to those produced by the Word2Vec model. To 
-evaluate the model's output, each document is presented with a label during the training process. For our corpus, we assigned ``True'' and ``False'' labels to each document, specifically to each post. The objective of the SVM model is to identify the hyperplane that maximizes the margin- the gap between the hyperplane that divides the two classes and the nearest data points from each class. A higher margin implies better generalization of the hyperplane to novel data, but a larger margin also increases the risk of overfitting the training data. For classification, the SVM converts input vectors into a high-dimensional feature space by using a kernel function. The algorithm locates a hyperplane to distinguish between the two document classes and allows for a sufficient margin to avoid overfitting. The labels attached to each document inform the model about its result during the last iteration, which helps adjust the weights of the neural network. Once the model is trained, we will examine its effectiveness by measuring accuracy, precision, recall, and F1 score through a test set. This method involves tallying the true negatives and true positives, which were correctly classified by the model from the test set. Similarly, we add the false negatives and false positives, which were erroneously classified by the model from the test set. To create and employ our own SVM model, we will utilize the SVM techniques available in the Python library \citet{scikit:svm}.
+evaluate the model's output, each post is presented with a label during the training process. For our corpus, we assigned ``True'' and ``False'' labels to each document, specifically to each post. The objective of the SVM model is to identify the hyperplane that maximizes the margin- the gap between the hyperplane that divides the two classes and the nearest data points from each class. A higher margin implies better generalization of the hyperplane to novel data, but a larger margin also increases the risk of overfitting the training data. For classification, the SVM converts input vectors into a high-dimensional feature space by using a kernel function. The algorithm locates a hyperplane to distinguish between the two post classes and allows for a sufficient margin to avoid overfitting. The labels attached to each post inform the model about its result during the last iteration, which helps adjust the weights of the neural network. Once the model is trained, we will examine its effectiveness by measuring accuracy, precision, recall, and F1 score through a test set. This method involves tallying the true negatives and true positives, which were correctly classified by the model from the test set. Similarly, we add the false negatives and false positives, which were erroneously classified by the model from the test set. To create and employ our own SVM model, we will utilize the SVM techniques available in the Python library \citeauthor{scikit:svm}.
 
 Our final model consists of two parts: the Word2Vec model and the SVM model. We linked these models by utilizing the 
 output object of the Word2Vec model to transform each sentence into feature vectors. A crucial aspect to consider when connecting these models is the differing feature lengths. As sentences produce a higher-dimensional matrix of word embeddings, we must flatten the matrix in a manner that allows the SVM model to use it effectively. This is because the SVM model expects a single input vector. Thus, we parse the vectors into the SVM model for training purposes. After establishing the connection between both models and implementing the SVM model from the sklearn library, selecting the appropriate hyperparameters becomes necessary.
@@ -462,14 +487,13 @@ configured for our model.
   kernel functions exist: `linear', `poly', `rbf', and `sigmoid'. The linear kernel function returns the dot product of the two input vectors. The polynomial kernel function uses the polynomial of the two input vectors to a specified degree. The rbf kernel returns the exponential of the negative squared Euclidean distance between two input vectors and is significantly affected by the gamma value. Finally, the sigmoid kernel function utilizes the hyperbolic tangent of the dot product of the two input vectors.
 \end{itemize}
 
-To determine optimal hyperparameters, we utilized the GridSearchCV method provided by sklearn. This technique 
-exhaustively traverses a predefined grid of hyperparameter values for every possible combination. The model is then trained and assessed on an independent validation set for each parameter combination. The optimal set of hyperparameters is selected based on the combination of parameters that yields the best-performing model. We opted not to specify the iteration for the model since it has an inbuilt method to ascertain convergence. Additionally, adding this fourth value would drastically increase the complexity of using grid search. Below is the parameter grid specified for our grid search method:\\
+To determine the optimal set of hyperparameters, we utilized the GridSearchCV method provided by sklearn. This technique exhaustively traverses a predefined grid of hyperparameter values for every possible combination. The model is then trained and assessed on an independent validation set for each parameter combination. The optimal set of hyperparameters is selected based on the combination of parameters that yields the best-performing model. We opted not to specify the iteration for the model since it has an inbuilt method to ascertain convergence. Additionally, adding this fourth value would drastically increase the complexity of using grid search. Below is the parameter grid specified for our grid search method:
 
-\begin{adjustwidth}{1cm}{0cm}
-  `C': [0.001, 0.005, 0.01, 0.02, 0.05]\\
-`gamma': [0.001, 0.01, 0.1, 1, 10]\\
-`kernel': [`linear', `poly', `rbf', `sigmoid']\\
-\end{adjustwidth}
+\begin{itemize}
+  \item `C': [0.001, 0.005, 0.01, 0.02, 0.05]
+  \item `gamma': [0.001, 0.01, 0.1, 1, 10]
+  \item `kernel': [`linear', `poly', `rbf', `sigmoid']
+\end{itemize}
 
 Every combination of these parameters is evaluated by the sklearn approach based on its internal score and loss. After 
 running this grid search on the specified values, the model resulted in the best score with these hyperparameters settings: [C: 0.005, gamma: 0.001, kernel: `linear']. After testing more iterations, we changed the `C' value to 0.01 because it yielded better results for the tech-specific complexity. Even though the gamma value is not mandatory for the linear kernel function, we retained it for consistency purposes. As with the Word2Vec part of our model, we also logged the training process for the SVM model. This way, we can compare past attempts, determine performance differences, and assess the most effective model based on results.
@@ -486,13 +510,20 @@ pertaining to configuration errors. The Word2Vec component converts each input i
 
 \section{Experiment 2: LLM Approach}
 Recent advances in large language models (LLMs) have led to a significant growth of opportunities for applying machine 
-learning in various fields. LLMs, such as ChatGPT, are well-suited for advanced fields such as configuration errors, as they allow for training on domain-specific data. Pre-trained models with a greater knowledge base than standard NLP models are accessible to all via API use. The classification process can be challenging, particularly for small models like our CM-PaCE model. In this second approach, we demonstrate how LLMs, specifically the gpt3.5-turbo model (\citeauthor{openai:2023}), can be employed to classify posts containing discussions about configuration errors, similar to our classification model. Furthermore, we will utilize NLP's functionality to provide input feedback, which will aid in comprehending how the model arrived at its conclusion. To achieve optimal results, we will evaluate various prompt engineering techniques to find the most effective prompt for our study's model.
+learning in various fields. LLMs, such as ChatGPT, are well-suited for advanced fields such as configuration errors, as they allow for training on domain-specific data. Pre-trained models with a greater knowledge base than standard NLP models are accessible to all via API use. The classification process can be challenging, particularly for small models like our CM-PaCE model. In the second experiment, we evaluate whether LLMs, specifically the gpt3.5-turbo model (\citeauthor{openai:2023}), can be employed to classify posts containing discussions about configuration errors, similar to our classification model. Furthermore, we will utilize NLP's functionality to provide input feedback, which will aid in comprehending how the model arrived at its conclusion. To achieve optimal results, we will evaluate various prompt engineering techniques to find the most effective prompt for our study's model. Figure \ref{fig:figure43} offers an overview of this experimental setup.
+
+
+\begin{figure}[h]
+  \includegraphics[width=1\textwidth]{images/figure3.png}
+  \caption{Experiment 2: Using LLM for Classification Task}
+  \label{fig:figure43}
+\end{figure}
 
 Further data preprocessing is unnecessary for this approach. The dataset we previously created is adequate to iterate 
-on this model and there is no requirement to preprocess each document entry by removing stop words or tokenizing the text. Following the creation of the dataset, we removed most of the HTML tags. However, we retained some tags like href links and code tags to provide the model with contextual information regarding the structure of the post. The dataset will be further separated to test different prompting methods, where the Few-Shot prompting method will need some examples from the dataset for the initial prompt. This method will have four posts --- two positive and two negative --- as examples, which will be removed from the dataset for consistency with the other methods. That way, all Prompting methods contain the same training data, while the Few-Shot prompting method will get four examples to start with. The remaining 497 posts will be used to evaluate the model in all prompting methods.
+on this model and there is no requirement to preprocess each post entry by removing stop words or tokenizing the text. Following the creation of the dataset, we removed most of the HTML tags. However, we retained some tags like href links and code tags to provide the model with contextual information regarding the structure of the post. The dataset will be further separated to test different prompting methods, where the Few-Shot prompting method will need some examples from the dataset for the initial prompt. This method will have four posts --- two positive and two negative --- as examples, which will be removed from the dataset for consistency with the other methods. That way, all Prompting methods contain the same training data, while the Few-Shot prompting method will get four examples to start with. The remaining 497 posts will be used to evaluate the model in all prompting methods.
 
-During the iteration process, we will input the text of each document into the prompting function, which will 
-subsequently assess the API and produce an output from the model. This output is manually reviewed and recorded in a table alongside the original label for each document. This enables us to generate measurement scores by assessing the output label generated by the LLM model against the actual label assigned to each document. Since a high accuracy of the model is assumed, we include the number of tokens used for each method as a secondary measurement, specifically for getting the efficiency.
+During the iteration process, we will input the text of each post into the prompting function, which will 
+subsequently assess the API and produce an output from the model. This output is manually reviewed and recorded in a table alongside the original label for each post. This enables us to generate measurement scores by assessing the output label generated by the LLM model against the actual label assigned to each post. Since a high accuracy of the model is assumed, we include the number of tokens used for each method as a secondary measurement, specifically for getting the efficiency.
 
 The gpt3.5-turbo model works by creating http requests to the API with several parameters. For our approach, we 
 decided to specify only the temperature parameter because it directly affects the randomness of the model (\citeauthor{openaicomplete:2023}), which we want to reduce to get the best results. Typically, a higher temperature (up to a value of 2) is utilized to produce diverse outputs, such as generating more natural responses to common questions or exhibiting some degree of ``creativity'' in producing texts such as poems. Lower temperatures (as low as a value of 0) can result in more stable and predictable outcomes, aligning with our objective of accurately classifying posts and emphasizing the provided information. Additionally, this can decrease the likelihood of model hallucinations, in which it generates random outputs that do not align with the input.
@@ -505,27 +536,33 @@ In the version used in this experiment (gpt-3.5-turbo-0613), the API call respon
 `choices' object, the date of creation, the call's id, the model used, the method of model use, and a usage object featuring the number of tokens utilized. Of particular interest for our intention is the `choices' object, which incorporates the messages array that the model produced, in addition to the finish reason and index where the model ceased function. In this case, the messages array comprises a single message with the role attribute labeled as `assistant' and the message content serves as the actual output we need to evaluate.
 
 We utilized the `requests' library by \citeauthor{reitz:nd} within our Python code to generate post requests to the API. 
-Each post request undergoes parsing with the constructed prompt as the system role message and the user input as the user role message in the messages array. The API key and the URL for the post request are saved in a distinct file. We developed a simple function that can be called with the designed prompt and the input to return a response for the output. Additional functions for our implementation consist of logging results, along with the token size and input, in a log file, and selecting specific documents from the dataset for distinct stages of the experiment.
+Each post request undergoes parsing with the constructed prompt as the system role message and the user input as the user role message in the messages array. The API key and the URL for the post request are saved in a distinct file. We developed a simple function that can be called with the designed prompt and the input to return a response for the output. Additional functions for our implementation consist of logging results, along with the token size and input, in a log file, and selecting specific posts from the dataset for distinct stages of the experiment.
 
 \subsubsection{Prompt Engineering}
 In the \ref{sec:pe} section, we introduced the three prompting methods we will employ in our study: 
-Zero-Shot prompting, Few-Shot prompting, and Chain-of-Thought prompting. After evaluating each method using our dataset, we determined which one is best suited for retrieving posts about configuration errors. The following are the prompts for each method, which we will use to iterate on the documents. Note that our constructed prompt is provided as the role of each API call, telling the model what task it has to accomplish.
+Zero-Shot prompting, Few-Shot prompting, and Chain-of-Thought prompting. After evaluating each method using our dataset, we determined which one is best suited for retrieving posts about configuration errors. The following are the prompts for each method, which we will use to iterate on the posts. Note that our constructed prompt is provided as the role of each API call, telling the model what task it has to accomplish.
 
 \begin{itemize}
   \item \textbf{Zero-Shot prompting:} In this prompt (see Appendix \ref{fig:figure45}), we have provided information on the domain and format of posts that the model will encounter as input to recognize keywords that indicate code fragments. However, we did not offer any concrete examples of positive or negative inputs, resulting in the model having no pre-training in the form of ``shots'' and relying solely on Zero-Shot prompting. Following the classification, the model must provide a brief explanation for its decision. It is important to note that this is a basic prompt intended to test the effectiveness of methods on small subsets before creating a more refined and comprehensive version.
-  \item \textbf{Few-Shot prompting:} In this prompt (see Appendix \ref{fig:figure46}), four sample documents are provided, two with positive labels and two with negative labels. We omitted a specific subject matter to serve as a direct guide for the model on how a post should appear. By giving examples, Few-Shot prompting pre-trains the model to understand the expected output for a given input. Despite this, we still require the model to justify its decision. In the evaluation process, we had to exclude two documents from the dataset because the provided examples made the prompt too long for the model to work. Due to length limitations, we did not include the full post examples in the appendix. Refer to our Jupyter Notebook for the complete examples.
-  \item \textbf{Chain-of-Thought prompting:} This prompt (see Appendix \ref{fig:figure47}) is similar to the first, where Zero-Shot prompting was used.  However, an additional instruction was included this time, leading the model to think in a step-by-step manner. As a result, the model devised a plan that incorporated more domain-specific knowledge to approach the result, potentially enhancing the understanding of posts prior to arriving at a decision. In brief, the model conducts a comprehensive analysis of the issue by referring to its experience with comparable problems, dissecting the problem into manageable parts, and producing a consistent and final resolution. We also used a second version of Chain-of-Thought prompting (see Appendix \ref{fig:figure48}), applying the criteria for positive documents from our manual selection process. This extended Chain-of-Thought prompting method served as the fourth approach in the second experiment.
+  \item \textbf{Few-Shot prompting:} In this prompt (see Appendix \ref{fig:figure46}), four sample posts are provided, two with positive labels and two with negative labels. We omitted a specific subject matter to serve as a direct guide for the model on how a post should appear. By giving examples, Few-Shot prompting pre-trains the model to understand the expected output for a given input. Despite this, we still require the model to justify its decision. In the evaluation process, we had to exclude two posts from the dataset because the provided examples made the prompt too long for the model to work. Due to length limitations, we did not include the full post examples in the appendix. Refer to our Jupyter Notebook for the complete examples.
+  \item \textbf{Chain-of-Thought prompting:} This prompt (see Appendix \ref{fig:figure47}) is similar to the first, where Zero-Shot prompting was used.  However, an additional instruction was included this time, leading the model to think in a step-by-step manner. As a result, the model devised a plan that incorporated more domain-specific knowledge to approach the result, potentially enhancing the understanding of posts prior to arriving at a decision. In brief, the model conducts a comprehensive analysis of the issue by referring to its experience with comparable problems, dissecting the problem into manageable parts, and producing a consistent and final resolution. We also used a second version of Chain-of-Thought prompting (see Appendix \ref{fig:figure48}), applying the criteria for positive posts from our manual selection process. This extended Chain-of-Thought prompting method served as the fourth approach in the second experiment.
 \end{itemize}
 
 
 
-\subsubsection{Result Measuring}
-To assess the overall effectiveness of the various prompting methods, we used accuracy, precision, recall, and the F1 score. After logging each output of the model along with the original label of the document to the console, we manually noted the false negatives and false positives to calculate the measurement scores. We used a Python function to calculate measurements, inputting the size of the dataset in positive and negative documents and the quantity of false negatives and false positives. Additionally, we wanted to measure the number of tokens per method, but this only produced reliable results on smaller dataset samples due to technical issues such as the API not responding. As a result, the evaluation runtime encountered various crashes, losing the count of the used tokens.
+\subsubsection{Metrics}
+To assess the overall effectiveness of the various prompting methods, we used accuracy, precision, recall, and the F1 score. After logging each output of the model along with the original label of the post to the console, we manually noted the false negatives and false positives to calculate the measurement scores. We used a Python function to calculate measurements, inputting the size of the dataset in positive and negative documents and the quantity of false negatives and false positives. Additionally, we wanted to measure the number of tokens per method, but this only produced reliable results on smaller dataset samples due to technical issues such as the API not responding. As a result, the evaluation runtime encountered various crashes, losing the count of the used tokens.
 
 \section{Experiment 3: Dataset Analysis}
 
 To emphasize the significance of accurately retrieving Stack Overflow posts related to configuration 
-errors, we conducted a third experiment. We used the LLM model gpt3.5-turbo to analyze the retrieved posts from the Few-Shot prompting method, testing the model's effectiveness in not only collecting posts on a given topic but also examining the document for specific information. For each post, we asked the model to extract five aspects: the tech stack used, the type of configuration error, the cause of the configuration error, and how to resolve the configuration error. After collecting the responses, we manually verified them using our experience and knowledge of the field or with the help of verified answers on Stack Overflow to validate their accuracy.
+errors, we conducted a third experiment, visualized in Figure \ref{fig:figure44}. We used the LLM model gpt3.5-turbo to analyze the retrieved posts from the Few-Shot prompting method, testing the model's effectiveness in not only collecting posts on a given topic but also examining the post for specific information. For each post, we asked the model to extract five aspects: the tech stack used, the type of configuration error, the cause of the configuration error, and how to resolve the configuration error. After collecting the responses, we manually verified them using our experience and knowledge of the field or with the help of verified answers on Stack Overflow to validate their accuracy.
+
+\begin{figure}[h]
+  \includegraphics[width=1\textwidth]{images/figure4.png}
+  \caption{Experiment 3: Analysis utilizing LLM}
+  \label{fig:figure44}
+\end{figure}
 
 The dataset for this experiment comprises the posts that we manually labeled as true, including those 
 classified by the model as true positives and the few false negatives where the model incorrectly labeled true posts as not containing talk about configuration errors. To test the model's liability, we included the false positives from the previous experiment, in which the LLM mislabeled posts as containing configuration errors when we concluded that they did not. This could also reveal instances of human error, where we mistakenly labeled posts as not containing configuration errors. Overall, this reinforces the model's effectiveness in the retrieval process.
@@ -533,7 +570,7 @@ classified by the model as true positives and the few false negatives where the 
 After manually evaluating the results in a qualitative study, we will measure the performance of the 
 model by assigning points to correctly analyzed aspects. Each post can receive a maximum score of five points if all five aspects are correctly analyzed, and a minimum score of zero points if the model does not provide any valuable information on any of the five aspects. We decided to not give a point to an aspect if the answer of the model is either wrong or does not contain any information, as in stating that no answer can be found. After scoring each post, we will compare the performance on manually retrieved positive posts, false positives labeled by the model, and the overall dataset containing both positive posts and false positives.
 
-\subsubsection{Aspects of Analysis}
+\subsubsection{Aspects of Stack Overflow Post Analysis}
 
 This section discusses the selected aspects for analysis by the model. For each aspect, we will describe 
 its importance for the task, provide a brief description of the aspect and its usefulness, and evaluate its overall usefulness for research or users.
@@ -548,25 +585,27 @@ its importance for the task, provide a brief description of the aspect and its u
 
 \chapter{Results}\label{results}
 
-This section presents the results of the study. First, we provide the results for the CM-PaCE model and its underlying Word2Vec and SVM models. Next, we present the measurement scores for the different prompting methods on the classification task for the second experiment. Finally, we present the results for the third experiment, where the LLM analyzed the dataset.\\
+This section presents the results of the study. First, we provide the results for the CM-PaCE model and its underlying Word2Vec and SVM models. Next, we present the measurement scores for the different prompting methods on the classification task for the second experiment. Finally, we present the results for the third experiment, where the LLM analyzed the dataset.
 
 \section{Experiment 1: CM-PaCE Approach}
 
 \subsubsection{Word2Vec}
 
-In this section, we present the outcomes of our classification model, CM-PaCE, with a focus on its Word2Vec component. This component generates word vectors from our dataset, aiding in the comprehension of contextual relationships and emphasizing significant words. For instance, the vector for `configuration' (stemmed as `configur' in our model) is elaborated in Appendix 
-\ref{fig:figure51}. The similarity between `configur' and `error' was measured using model.wv.similarity(`configur',`error') and resulted in a high score of 0.76458657, indicating a strong contextual relationship. 
+We first present the outcomes of our classification model, CM-PaCE, with a focus on its Word2Vec component. This component generates word vectors from our dataset, aiding in the comprehension of contextual relationships and emphasizing significant words. For instance, the vector for `configuration' (stemmed as `configur' in our model) is elaborated in Appendix 
+\ref{fig:figure51}. The similarity between `configur' and `error' resulted in a high score of 0.76458657, indicating a strong contextual relationship. It was measured using \texttt{model.wv.similarity(`configur',`error')}.
 
 Despite limited commonality in the domain of configuration errors, `configur' and `python' still showed a contextual similarity with a score of 0.03798087. This demonstrates the model's capability to accurately discern context. The similarity scores are based on cosine similarity, ranging from -1 to 1. A score of 1 represents high similarity, 0 represents no similarity, and -1 represents dissimilarity. For example, the words `configur' and `color' have a slightly opposing meaning with a low negative score of -0.020100988. This demonstrates the model's nuanced understanding of word relationships in the higher-dimensional field.
 
-The model was trained using the following initial values during the training process:\\
+\newpage
 
-\begin{adjustwidth}{1cm}{0cm}
-  min\_count = 1\\
-  alpha = 1\\
-  min\_alpha = 0.1\\
-  epochs = 100\\
-\end{adjustwidth}
+The model was trained using the following initial values during the training process:
+
+\begin{itemize}
+  \item min\_count = 1
+  \item alpha = 1
+  \item min\_alpha = 0.1
+  \item epochs = 100
+\end{itemize}
 
 To evaluate the model's performance, we analyzed the contextual relevance of words related to 
 `configur', a stemmed version of `configuration', which is crucial in understanding configuration errors. The analysis of the top 21 words related to `configur' yielded valuable insights into the model's semantic comprehension as can be seen in figure \ref{fig:figure52}.
@@ -614,14 +653,14 @@ After rigorously iterating and optimizing the model parameters, specifically the
 relation to other model settings, we identified the optimal configuration for our Word2Vec model. This fine-tuned model was then used as the primary input for the subsequent stage of our classification pipeline, the SVM method. The parameters of our Word2Vec model, as presented in the methodology, yielded the results in our evaluation process that are presented in Appendix \ref{fig:figure56}.
 
 These findings are noteworthy. The moderate similarity score between `config' and `error' suggests a 
-nuanced understanding of their relationship, while the high similarity score between `configur' and `error' highlights a more direct association in the context of configuration errors. The model's ability to discern relevant contextual associations is demonstrated by the array of most similar words for both `config' and `configur', which includes terms like `file', `error', and `occur' reflecting common elements in configuration error discussions. In a diagnostic exercise, the model accurately identified `java' as the outlier when presented with the set ['configur', `error', `invalid', `java', `problem', `cloud']. This result confirms the model's ability for semantic discrimination, which is crucial for nuanced language tasks such as classification.
+nuanced understanding of their relationship, while the high similarity score between `configur' and `error' highlights a more direct association in the context of configuration errors. The model's ability to discern relevant contextual associations is demonstrated by the array of most similar words for both `config' and `configur', which includes terms like `file', `error', and `occur' reflecting common elements in configuration error discussions. In a diagnostic exercise, the model accurately identified `java' as the outlier when presented with the set [`configur', `error', `invalid', `java', `problem', `cloud']. This result confirms the model's ability for semantic discrimination, which is crucial for nuanced language tasks such as classification.
 
 Upon processing, the words `configur', `error', and `occur' were extracted, tokenized, and preprocessed 
 from the sentence. These word vectors were then computed, providing a granular view of their semantic features and reflecting their complex semantic attributes within the context of the sentence. The feature vectors for the three tokens of the sentence in order can be seen in Appendix \ref{fig:appendix1}, together with the aggregated feature vector for the whole sentence in Appendix \ref{fig:appendix2}. This vector representation for sentences was then used to train the SVM model.
 
 \subsubsection{SVM}
 
-The primary objective of the SVM component in our CM-PaCE classification model was to use the generated feature vectors for classification after training on a designated dataset. To achieve this, we needed to identify the optimal set of hyperparameters, with particular emphasis on the `C' parameter in the context of the scikit-learn Python library. This parameter is a crucial factor in regularizing the model, balancing classification accuracy with model simplicity. A lower `C' value can improve margin and generalization capabilities, while a higher `C' value can minimize misclassifications, but may increase the risk of overfitting. Therefore, determining the optimal `C' value is essential for ensuring robust model performance. The impact of changing `C' using the `linear' kernel can be seen in Table \ref{tab:table50}.\\
+The primary objective of the SVM component in our CM-PaCE classification model was to use the generated feature vectors for classification after training on a designated dataset. To achieve this, we needed to identify the optimal set of hyperparameters, with particular emphasis on the `C' parameter in the context of the scikit-learn Python library. This parameter is a crucial factor in regularizing the model, balancing classification accuracy with model simplicity. A lower `C' value can improve margin and generalization capabilities, while a higher `C' value can minimize misclassifications, but may increase the risk of overfitting. Therefore, determining the optimal `C' value is essential for ensuring robust model performance. The impact of changing `C' using the `linear' kernel can be seen in Table \ref{tab:table50}.
 
 \begin{table}[ht]
   \caption{Different C values using the `linear' kernel impacting the results}
@@ -640,13 +679,15 @@ The data indicate that a `C' value of 0.01 achieves an optimal balance, with an 
 precision and recall both at 92.5\%, and an F1 score of 92.59\%. In contrast, a lower `C' value of 0.001, while achieving a precision of 100\%, results in a decline in recall to 85.19\%, indicating a trade-off between false positives and false negatives. Further reducing the `C' value to 0.0001 and 0.00001 results in a significant deterioration of model accuracy and precision. The lowest `C' value leads to a high recall of 100\%, but at the cost of significantly reduced accuracy and precision (52.94\% for both). These results emphasize the critical influence of the `C' parameter in the SVM training process and highlight its role in dictating the trade-offs between various performance metrics. After considering these results, we chose a value of 0.01 for `C' to maintain good results while also achieving more consistent classification.
 
 After initially testing different `C' values, we decided to find the best hyperparameter configuration for our SVM model by using a comprehensive grid 
-search, using the scikit-learn library. This systematic approach involved exploring a predefined range of hyperparameters exhaustively.\\\\
+search, using the scikit-learn library. This systematic approach involved exploring a predefined range of hyperparameters exhaustively.
 
-\begin{adjustwidth}{1cm}{0cm}
-  `C': [0.001, 0.005, 0.01, 0.02, 0.05],\\
-  `gamma': [0.001, 0.01, 0.1, 1, 10],\\
-  `kernel': [`linear', `poly', `rbf', `sigmoid']\\
-\end{adjustwidth}
+\newpage
+  
+\begin{itemize}
+  \item `C': [0.001, 0.005, 0.01, 0.02, 0.05]
+  \item `gamma': [0.001, 0.01, 0.1, 1, 10]
+  \item `kernel': [`linear', `poly', `rbf', `sigmoid']
+\end{itemize}
 
 The outcome of this grid search yielded a set of hyperparameters that were deemed most effective for our 
 model: C=0.005, gamma=0.001, kernel='linear'. This particular combination suggests that a relatively lower complexity of the model (as indicated by a smaller `C' value) yielded the most effective performance. The values for gamma do not affect the results for the linear kernel. Upon further examination, it was discovered that a `C' value of 0.01, while not best value resulting from the grid search method, offered a better balance between model complexity and generalization capability. The model's enhanced performance metrics were observed to be more favorable at C=0.01 compared to other tested values, substantiating this finding. Therefore, 0.01 was adopted as the preferred value for the `C' parameter instead of the grid search result.
@@ -654,21 +695,21 @@ model: C=0.005, gamma=0.001, kernel='linear'. This particular combination sugges
 After evaluating various hyperparameters and using a shuffled training and test dataset, we identified 
 the optimal hyperparameters for the SVM component in the CM-PaCE model as C: 0.01 and gamma: 0.001 with a linear kernel. The gamma parameter, although irrelevant in the linear kernel context, was included as an artifact from the training process that primarily pertains to other kernel types. This selection process aimed to balance the model's generalization ability against overfitting, a critical consideration in machine learning model optimization.
 
-The performance of the SVM model, as integrated into our CM-PaCE framework, was assessed using the  metrics accuracy, precision, recall, and the F1 score.\\
+The performance of the SVM model, as integrated into our CM-PaCE framework, was assessed using the  metrics accuracy, precision, recall, and the F1 score.
 
-\begin{adjustwidth}{1cm}{0cm}
-  Accuracy: 0.9019607843137255\\
-  Precision: 0.9090909090909091\\
-  Recall: 0.8695652173913043\\
-  F1 score: 0.888888888888889\\
-\end{adjustwidth}
+\begin{itemize}
+  \item Accuracy: 0.9019607843137255
+  \item Precision: 0.9090909090909091
+  \item Recall: 0.8695652173913043
+  \item F1 score: 0.888888888888889
+\end{itemize}
 
 The model achieved a high level of proficiency, with an accuracy of approximately 90.2\%, indicating the 
 proportion of correct predictions out of the total. Precision, the measure of relevance in the model's positive classifications, was recorded at about 90.9\%, indicating a high rate of true positives in the predictions. The model's recall, which measures its ability to identify all relevant instances, was approximately 87.0\%, indicating its effectiveness in capturing positive instances. Additionally, the F1 score, a harmonic mean of precision and recall, was approximately 88.9\%, demonstrating a balanced trade-off between precision and recall in the model. These performance metrics demonstrate the robustness and reliability of the SVM component in our CM-PaCE model, highlighting its effectiveness in accurately and consistently classifying data.
 
 \subsubsection{CM-PaCE}
 
-To demonstrate the effectiveness of our finalized CM-PaCE model, we analyze a sample document that represents a positively labeled Stack Overflow post about configuration errors. The post in question can be seen in Figure \ref{fig:figure59}
+To demonstrate the effectiveness of our finalized CM-PaCE model, we analyze a sample post that represents a positively labeled Stack Overflow post about configuration errors. The post in question can be seen in Figure \ref{fig:figure59}
 
 \begin{figure}[h]
   \centering
@@ -677,8 +718,8 @@ To demonstrate the effectiveness of our finalized CM-PaCE model, we analyze a sa
   \label{fig:figure59}
 \end{figure}
 
-When we use both the Word2Vec and SVM models combined to pipeline this document, the model returns 
-`True', indicating that this is indeed a post about configuration errors. Furthermore, in order to rigorously test the capabilities of the model, we processed a series of additional documents, both manually sourced and self-authored, to simulate a diverse array of real-world scenarios and challenges that the model might encounter. The results confirmed the model's operational efficacy, as it consistently identified relevant posts with a high degree of accuracy. However, it is important to recognize the cases of misclassification, as shown in our previously discussed measurement results. Although these incidents were rare, they emphasize the need for ongoing refinement and adaptation of the model to improve its accuracy and dependability in different contexts. The iterative process of testing and refinement is essential to the evolution of our CM-PaCE model. It ensures its applicability and effectiveness in accurately categorizing Stack Overflow posts related to configuration errors.
+When we use both the Word2Vec and SVM models combined to pipeline this post, the model returns 
+`True', indicating that this is indeed a post about configuration errors. Furthermore, in order to rigorously test the capabilities of the model, we processed a series of additional posts, both manually sourced and self-authored, to simulate a diverse array of real-world scenarios and challenges that the model might encounter. This additional evaluation can be retraced in the final section of our Jupyter notebook `\texttt{cmpace.ipynb}' The results confirmed the model's operational efficacy, as it consistently identified relevant posts with a high degree of accuracy. However, it is important to recognize the cases of misclassification, as shown in our previously discussed measurement results. Although these incidents were rare, they emphasize the need for ongoing refinement and adaptation of the model to improve its accuracy and dependability in different contexts. The iterative process of testing and refinement is essential to the evolution of our CM-PaCE model. It ensures its applicability and effectiveness in accurately categorizing Stack Overflow posts related to configuration errors.
 
 \section{Experiment 2: LLM Approach}
 
@@ -692,8 +733,7 @@ to examine the efficacy of various Prompt Engineering strategies in the context 
   \label{fig:figure511}
 \end{figure}
 
-In the methodology section, we detailed the process of iterating over the complete dataset using the 
-three distinct prompting methods, including the Chain-of-Thought method. We also included another version of the Chain-of-Thought method that integrates the criteria from our manual selection process. This integration aims to combine the systematic rigor of Chain-of-Thought with the nuanced insights from manual analysis. Table \ref{tab:table52} presents the results from this extensive iteration, which includes all three methods and their results in the four different measurement scores including the number of False Negatvies (FN) and False Positives (FP).
+In the methodology section, we employed three distinct prompting methods, including the Chain-of-Thought method, to over the complete dataset. We also included another version of the Chain-of-Thought method that integrates the criteria from our manual selection process. This integration aims to combine the systematic rigor of Chain-of-Thought with the nuanced insights from manual analysis. Table \ref{tab:table52} presents the results from this extensive iteration, which includes all three methods and their results in the four different measurement scores including the number of False Negatvies (FN) and False Positives (FP). Each prompting method iterated on a set of 497 posts, with the Few-Shot prompting method having only 495 posts due to API restrictions in the length of the prompt.
 
 \begin{table}[ht]
   \caption{Overview of different measurement scores on the four prompting methods}
@@ -709,20 +749,19 @@ three distinct prompting methods, including the Chain-of-Thought method. We also
 \end{table}
 
 The analysis of the results shows several key insights. Firstly, the Zero-Shot prompting method 
-demonstrated perfect recall but exhibited a relatively high number of false positives, resulting in a precision of 80.69\%. This suggests that while the method is effective in identifying relevant documents, it also tends to overclassify documents as containing configuration errors. In contrast, the Few-Shot prompting method improved both precision and accuracy, indicating a more balanced classification capability. However, it is important to note that there was a slight reduction in recall and two documents were missing data due to API constraints, which are limitations of this approach.
+demonstrated perfect recall but exhibited a relatively high number of false positives, resulting in a precision of 80.69\%. This suggests that while the method is effective in identifying relevant posts, it also tends to overclassify posts as containing configuration errors. In contrast, the Few-Shot prompting method improved both precision and accuracy, indicating a more balanced classification capability. However, it is important to note that there was a slight reduction in recall and two posts were missing data due to API constraints, which are limitations of this approach.
 
 The standard Chain-of-Thought prompting method showed identical recall to the Zero-Shot method but with 
-improved precision, reducing the number of false positives. The effectiveness of CoT in refining classification accuracy is highlighted by this improvement. The Few-Shot prompting method demonstrated the highest accuracy and precision among the tested methods. Although there was a slight decrease in recall resulting in one false negative, this suggests a more conservative classification approach with increased accuracy in identifying relevant documents.
+improved precision, reducing the number of false positives. The effectiveness of \gls{cot} in refining classification accuracy is highlighted by this improvement. The Few-Shot prompting method demonstrated the highest accuracy and precision among the tested methods. Although there was a slight decrease in recall resulting in one false negative, this suggests a more conservative classification approach with increased accuracy in identifying relevant posts.
 
 These results demonstrate the strengths and weaknesses of each prompting method. They provide insights 
 into the potential of LLMs in classifying technical content, particularly in the context of configuration errors in Stack Overflow posts. The Few-Shot prompting method was selected as the preferred approach. This was due to its superior balance of precision and recall, reflected in its highest accuracy and F1 score. The method demonstrated a remarkable proficiency in correctly identifying posts related to configuration errors while minimizing false positives.
 
 \section{Experiment 3: Dataset Analysis}
 
-This section provides the results of the third experiment. It 
-includes a meticulous examination of the LLM's outputs on the dataset. The goal of this detailed evaluation is to evaluate the LLM's adeptness in handling the specified task. In addition, we will analyze the scores outlined in the Methodology section to determine their implications and significance. This analysis will be divided into three distinct types of measurement: measurement on both the set of posts we labeled as positive during the selection process as well as false positives classified by the LLM, measurement only on posts we labeled as positive during the selection process, and measurement focused on only the set of false positives classified by the LLM.
+In the third experiment, we utilized an LLM, gpt3.5-turbo, to analyze posts from the dataset. Each output was measured, with the goal to evaluate the LLM's adeptness in handling the specified task. In addition, we will analyze the scores outlined in the Methodology section to determine their implications and significance. This analysis will be divided into three distinct types of measurement: measurement on both the set of posts we labeled as positive during the selection process as well as false positives classified by the LLM (i), measurement only on posts we labeled as positive during the selection process (ii), and measurement focused on only the set of false positives classified by the LLM (iii).
 
-\subsubsection{Analysis Results}
+\subsubsection{Stack Overflow Posts Analysis Results}
 
 Following the previously outlined methodology, we analyzed all positively tagged posts and false positives identified by the Few-Shot prompting method. The model evaluated each aspect methodically and generated a response for each. An example of the model's post analysis approach is provided in Figure \ref{fig:figure512}.
 
@@ -736,6 +775,12 @@ Following the previously outlined methodology, we analyzed all positively tagged
 Although specific technologies like Android Studio were not explicitly mentioned in the Tech Stack 
 extraction, we deemed this categorization accurate. The error type and cause were congruent with the accepted answer for the post, showcasing the model's precision. The resolution advice provided by the LLM not only aligned with the accepted answer but also suggested the model's prior exposure to similar posts during its training phase. This may lead to inquiries about the originality of the model in generating responses. It is important to note that although the first aspect (tech stack used) did not receive a positive rating, this category consistently received high average ratings, indicating its overall reliability. The example presented in Figure \ref{fig:figure513} provides additional information on the training details of the gpt3.5-turbo model.
 
+The post's lack of specificity presents a significant challenge for the LLM, particularly since the LLM 
+version used (gpt3.5-turbo) lacks image processing capabilities. The image in question displays a JetBrains PyCharm environment with a configuration window showing an error. Despite this, the model's inference about the tech stack, while speculative, aligns with our manual identification of Python and PyCharm from the image. The model's inability to precisely identify the type of configuration error from the vague description is understandable. However, its general troubleshooting guidance is creditable. This example highlights the model's limitations in scenarios involving non-textual information and emphasizes the importance of providing detailed and clear input for optimal LLM performance.
+
+In conclusion, the experimental results provide empirical evidence that supports the effectiveness of 
+the model. It demonstrates its ability to produce mostly positive and relevant responses when analyzing Stack Overflow posts related to configuration errors. This outcome not only confirms the model's usefulness in this specific domain but also suggests its potential applicability in broader technical analysis. Moving on to the next phase of our analysis results, we will now examine the specific measurements in detail. This thorough examination involves manually evaluating each output generated by the model.
+
 \begin{figure}[h]
   \centering
   \includegraphics[width=1\textwidth]{images/failanalysis.png}
@@ -743,31 +788,46 @@ extraction, we deemed this categorization accurate. The error type and cause wer
   \label{fig:figure513}
 \end{figure}
 
-The post's lack of specificity presents a significant challenge for the LLM, particularly since the LLM 
-version used (gpt3.5-turbo) lacks image processing capabilities. The image in question displays a JetBrains PyCharm environment with a configuration window showing an error. Despite this, the model's inference about the tech stack, while speculative, aligns with our manual identification of Python and PyCharm from the image. The model's inability to precisely identify the type of configuration error from the vague description is understandable. However, its general troubleshooting guidance is creditable. This example highlights the model's limitations in scenarios involving non-textual information and emphasizes the importance of providing detailed and clear input for optimal LLM performance.
+\subsubsection{Total Result Set (i)}
 
-In conclusion, the experimental results provide empirical evidence that supports the effectiveness of 
-the model. It demonstrates its ability to produce mostly positive and relevant responses when analyzing Stack Overflow posts related to configuration errors. This outcome not only confirms the model's usefulness in this specific domain but also suggests its potential applicability in broader technical analysis. Moving on to the next phase of our analysis results, we will now examine the specific measurements in detail. This thorough examination involves manually evaluating each output generated by the model. The assessment criterion relies on our limited knowledge in the field and is supported by the availability of accepted answers in most posts. This enables us to determine the extent to which the model aligns with established knowledge and recognized solutions within the domain of configuration errors, providing a strong framework for evaluating the model's performance.
+When analyzing both the set of manually labeled positive posts from the selection process and false positives classified by the LLM, the LLM demonstrated its ability to identify relevant posts without prior training. The overall score, which is detailed in Figure 
+\ref{fig:appendix3}, represents the average of positive ratings (+) given to each post, with an average score of approximately 3.21 points, or 64.2\%. The model's performance falls short of expectations for a model like gpt3.5-turbo due to the inclusion of false positives, which reduces the overall score. However, the model demonstrates improvement in datasets that only contain positively rated posts.
 
-\subsubsection{Total Result Set}
-
-When analyzing both the set of manually labeled positive posts from the selection process and false positives classified by the LLM, the LLM demonstrated its ability to identify relevant posts without prior training. The overall score, which is detailed in Appendix 
-\ref{fig:appendix3}, represents the average of positive ratings (+) given to each document, with an average score of approximately 3.21 points, or 64.2\%. The model's performance falls short of expectations for a model like gpt3.5-turbo due to the inclusion of false positives, which reduces the overall score. However, the model demonstrates improvement in datasets that only contain positively rated documents.
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{images/table_setA.png}
+  \caption{Distribution of posts on the five aspects of analysis for the total dataset}
+  \label{fig:appendix3}
+\end{figure}
 
 The LLM's average positivity ratings varied across the five analyzed aspects. The aspect of `Tech Stack Used' achieved a high average score of 0.989, demonstrating the LLM's ability to accurately identify and categorize technologies and frameworks mentioned in posts. However, there were some instances of irrelevant responses. The aspect of `Type of Configuration Error' scored 0.598, indicating difficulties in providing coherent explanations, particularly for false positives. This trend persists with the other aspects: `Cause of the Configuration Error' (0.513), `Impact of the Configuration Error' (0.602), and `How to fix the Configuration Error' (0.504). These scores demonstrate the limitations of LLM in classifying and analyzing configuration error content, particularly in identifying false positive posts, indicating areas for future model improvement.
 
-\subsubsection{Positive Documents Result Set}
+\subsubsection{Positive Posts Result Set (ii)}
 
-In the second variant of the analysis, which focuses on all posts we manually labeled as positive, including reclassified true positives, 9 posts that were initially considered general discussions were later recognized as relevant. The revised dataset achieved an average score of 4.559, or 91.2\%, using a 0 to 5 rating system (see Appendix 
+In the second variant of the analysis, which focuses on all posts we manually labeled as positive, including reclassified true positives, 9 posts that were initially considered general discussions were later recognized as relevant. The revised dataset achieved an average score of 4.559, or 91.2\%, using a 0 to 5 rating system (see Figure 
 \ref{fig:appendix4} for distribution). This performance significantly surpassed that of the first variant on the entire dataset.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{images/table_setB.png}
+  \caption{Distribution of posts on the five aspects of analysis for the set of positive posts}
+  \label{fig:appendix4}
+\end{figure}
 
 In this subset, the LLM performed exceptionally well in identifying the `Tech Stack Used' with an average rating of 0.978, demonstrating its precision in recognizing technological frameworks. For `Type of Configuration Error', it achieved an average rating of 0.937, highlighting the significance of accurate initial classification. The aspect related to the `Impact of the Configuration Error' scored approximately 0.981, indicating the model's ability to comprehend both immediate and potential consequences of errors.
 
 However, the `Cause of the Configuration Error' aspect received a slightly lower average rating of 0.841, suggesting some difficulty in identifying the sources of errors. The aspect of `How to fix the Configuration Error' received an average rating of 0.822, indicating that there is room for improvement in proposing effective solutions for identified issues.
 
-\subsubsection{False Positives Result Set}
+\subsubsection{False Positives Result Set (iii)}
 
-In the third variant, focusing on false positives identified by the few-shot prompting method, the LLM showed its ability to detect posts unrelated to configuration errors. A high average score indicates successful detection of non-error posts, while a low score suggests that the model attempts to analyze irrelevant posts. The distribution of posts across five aspects is detailed in Appendix \ref{fig:appendix5}.
+In the third variant, focusing on false positives identified by the few-shot prompting method, the LLM showed its ability to detect posts unrelated to configuration errors. A high average score indicates successful detection of non-error posts, while a low score suggests that the model attempts to analyze irrelevant posts. The distribution of posts across five aspects is detailed in Figure \ref{fig:appendix5}.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{images/table_setC.png}
+  \caption{Distribution of posts on the five aspects of analysis for false positives}
+  \label{fig:appendix5}
+\end{figure}
 
 The LLM achieved an average score of 1.852 for false positives, underperforming compared to other variants, with only 18.5\% of posts correctly identified as not containing configuration errors. However, in the `Tech Stack Used' category, the model excelled with an average rating of 1, accurately extracting technical details from each false positive post. However, the model exhibited significant limitations in several areas, including `Type of Configuration Failure' (0.259), `Cause of the Configuration Error' (0.185), `Impact of the Configuration Error' (0.222), and `How to fix the Configuration Error' (0.185).
 
@@ -796,7 +856,7 @@ incidence of false positives. Although some posts were later reclassified as con
 Additionally, the deployment of the LLM, trained on an extensive dataset, demonstrated its proficiency 
 in text generation, providing further insights into the model's reasoning processes. This capability extends beyond the primary task of merely classifying posts, offering valuable perspectives on the broader competencies of LLMs. The model's ability to generate coherent and contextually relevant text highlights its potential not only in categorizing content but also in enhancing our understanding of complex subjects. This feature is especially useful in domains where contextual understanding and explanatory depth are crucial, further establishing the role of LLMs in advanced data analysis and interpretation. Exploring this aspect of the LLM's functionality suggests its usefulness in various applications, from automated content creation to assisting in sophisticated analytical tasks, thus expanding the scope of AI applications in data-driven research and development.
 
-\subsubsection{Comparison}
+\subsubsection{Comparison of CM-PaCE and LLM}
 
 The comparison between the CM-PaCE model, which combines Word2Vec and SVM and operates locally, and 
 large language models (LLMs) for classifying Stack Overflow posts about configuration errors, aims to answer some questions. First, what are the use cases for a localized model such as CM-PaCE? The CM-PaCE model is tailored for specific tasks, offering enhanced performance with potentially lower computational demands. This makes it a suitable choice for applications with limited computational resources or requiring high customization to address specific configuration errors. However, its effectiveness is closely tied to hyperparameter optimization and the breadth of the training dataset. Improving these aspects could significantly enhance its performance, demonstrating the potential of specialized models in domain-specific classification tasks.
@@ -818,7 +878,7 @@ One interesting question when talking about the analysis is, did the model exhib
 the `Tech Stack Used' section but failed to deduce that Java was the associated programming language. This discrepancy highlights the need for more sophisticated and directive prompting techniques to improve the model's inferential reasoning abilities. The limitations of the LLM in processing indirect or less common information are accentuated by its optimal performance with familiar solutions and common errors. This suggests a need for more sophisticated models capable of nuanced understanding and reasoning.
 
 In conclusion, the LLM demonstrated proficiency in extracting information about configuration errors, 
-primarily with the set of relevant documents. However, our limited domain expertise restricted a comprehensive interpretation of the results. Nonetheless, the consistency observed in the results provides a promising foundation for future, more in-depth investigations of configuration errors, their interrelationships across different technology stacks, and their impact. Regarding the research question `\textbf{How do LLMs help to analyze retrieved datasets?}', we can confidently assert that LLMs significantly aid in the automated extraction of information from large amounts of data. This claim is supported by comparing the model outputs with the accepted answers on Stack Overflow, showing a high level of agreement between the model's findings and the community-validated solutions.
+primarily with the set of relevant posts. However, our limited domain expertise restricted a comprehensive interpretation of the results. Nonetheless, the consistency observed in the results provides a promising foundation for future, more in-depth investigations of configuration errors, their interrelationships across different technology stacks, and their impact. Regarding the research question `\textbf{How do LLMs help to analyze retrieved datasets?}', we can confidently assert that LLMs significantly aid in the automated extraction of information from large amounts of data. This claim is supported by comparing the model outputs with the accepted answers on Stack Overflow, showing a high level of agreement between the model's findings and the community-validated solutions.
 
 \section{Potential Applications of our Method}
 
@@ -826,16 +886,16 @@ Large language models have great potential for advancing research on configurati
 can automate post classification and extract useful information about configuration errors. This functionality enables various applications, including automated dataset creation and aiding in the analysis of information extracted from posts, not limited to configuration errors but encompassing other technical subjects as well. However, it is important to acknowledge the challenges encountered, such as the prevalence of false positives and instances of hallucination. Improving these issues can be achieved by enhancing prompting methodologies, refining training data, or adopting more advanced LLMs.
 
 Additionally, our research highlights the effectiveness of creating customized, concise classification 
-models for the task, such as our CM-PaCE model. With the work of \citet{tian:2020} and our classification task we can confidently state that the potential for such tools exists, even with relatively small datasets for a tech-specific domain. A specialized classification model could be employed to isolate relevant documents, which could subsequently be analyzed by an LLM to discern the technical domain in question, combining both a traditional machine learning approach with the abilities of large language models.
+models for the task, such as our CM-PaCE model. With the work of \citet{tian:2020} and our classification task we can confidently state that the potential for such tools exists, even with relatively small datasets for a tech-specific domain. A specialized classification model could be employed to isolate relevant posts, which could subsequently be analyzed by an LLM to discern the technical domain in question, combining both a traditional machine learning approach with the abilities of large language models.
 
 The comparison of different prompting methods provided valuable insights into the operational dynamics 
-of LLMs and the optimal strategies for their application in highly specialized technical domains like ours. The examination offers a nuanced understanding of the complexities and variances inherent in different prompting techniques for LLMs, particularly in tasks like ours. Our research findings could assist developers in devising new techniques for extracting documents from large datasets. Additionally, researchers could benefit from our insights into document analysis using LLMs. However, it is important to exercise caution due to the potential for hallucinations in these models.
+of LLMs and the optimal strategies for their application in highly specialized technical domains like ours. The examination offers a nuanced understanding of the complexities and variances inherent in different prompting techniques for LLMs, particularly in tasks like ours. Our research findings could assist developers in devising new techniques for extracting posts from large datasets. Additionally, researchers could benefit from our insights into document analysis using LLMs. However, it is important to exercise caution due to the potential for hallucinations in these models.
 
 \section{Threats to Validity}
 
 \subsubsection{Dataset Creation}
 
-There are limitations resulting from the manual data collection. One major limitation is the potential for bias introduced by the author conducting the data collection alone. In contrast, \citet{tian:2020} had two authors manually collect and discuss posts, with a third author resolving disagreements. In this work, posts were collected based on predetermined criteria with no guarantee against unconscious bias. For instance, some posts may be misclassified as false when they are actually related to configuration errors. This is the case for 9 documents as we further analyzed the dataset during the third experiment. The updated documents we misclassified are only taken into account into the third experiment as we already conducted the first two experiments. To mitigate these issues, we carefully designed our criteria according to not only the work of \citet{tian:2020} but also the general aspects of configuration errors from further research.
+There are limitations resulting from the manual data collection. One major limitation is the potential for bias introduced by the author conducting the data collection alone. In contrast, \citet{tian:2020} had two authors manually collect and discuss posts, with a third author resolving disagreements. In this work, posts were collected based on predetermined criteria with no guarantee against unconscious bias. For instance, some posts may be misclassified as false when they are actually related to configuration errors. This is the case for 9 posts as we further analyzed the dataset during the third experiment. The updated posts we misclassified are only taken into account into the third experiment as we already conducted the first two experiments. To mitigate these issues, we carefully designed our criteria according to not only the work of \citet{tian:2020} but also the general aspects of configuration errors from further research.
 
 The dataset size presents another challenge. To address this, we utilized the work of \citet{tian:2020}, who collected a total of 395 posts. We aimed to increase the dataset by 50\% to ensure sufficient data. However, in real-world applications, models are frequently trained on millions of documents. 
 
@@ -846,7 +906,7 @@ When developing models that use external libraries, such as gensim's Word2Vec an
 \subsubsection{Large Language Model}
 
 During the evaluation process, a major issue arose regarding the maximum length that the model's API 
-could handle. Two documents were excluded from the Few-Shot prompting method due to the extended initial prompt, which included four examples combined with two large posts, exceeding the maximum character limit for the model. However, we included these two documents in the other methods since we had already evaluated the first method with them. Repeating the entire experiment from this point was not feasible due to the limited token budget.
+could handle. Two posts were excluded from the Few-Shot prompting method due to the extended initial prompt, which included four examples combined with two large posts, exceeding the maximum character limit for the model. However, we included these two posts in the other methods since we had already evaluated the first method with them. Repeating the entire experiment from this point was not feasible due to the limited token budget.
 
 Additionally, the prompts themselves may be faulty. Although we constructed the prompts after testing 
 with different versions, we could not cover the full potential of the LLM. There may be more specific prompts that perform better than ours, even though we used the most common prompting methods. However, based on the initial testing we conducted, we believe that our prompts are suitable for the task at hand. To address this issue, we suggest testing different prompts or comparing our evaluation of the full dataset with evaluations from other prompts to identify areas for improvement.
@@ -857,7 +917,7 @@ subject to constant changes. The version we used was gpt-3.5-turbo-0613. Newer v
 Finally, a significant issue with LLMs, such as gpt3.5-turbo, is the risk of hallucination. As explained 
 earlier, LLMs can generate additional information that does not reflect reality in their attempt to produce an output. In our experiment, we aimed to reduce the risk of hallucination by lowering the model's temperature parameter. However, this issue is still prominent when the model is presented with severe logical conclusions, as in the analysis experiment. This could lead to severe problems during classification if the prompts are not thoroughly evaluated before applying this approach.
 
-Another limitation that is present with LLMs is the uncertainty of prior training on documents from our dataset. The model may have been trained on millions of posts from Stack Overflow, including posts from our dataset, therefore making it unclear whether the dataset really included `new documents' for the model. 
+Another limitation that is present with LLMs is the uncertainty of prior training on posts from our dataset. The model may have been trained on millions of posts from Stack Overflow, including posts from our dataset, therefore making it unclear whether the dataset really included `new documents' for the model. 
 
 \section{Future Research}
 
@@ -989,29 +1049,17 @@ Following the input, let's think step by step on how to find the best solution u
   \label{fig:appendix2}
 \end{figure}
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=1\textwidth]{images/table_setA.png}
-  \caption{Distribution of posts on the five aspects of analysis for the total dataset}
-  \label{fig:appendix3}
-\end{figure}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=1\textwidth]{images/table_setB.png}
-  \caption{Distribution of posts on the five aspects of analysis for the set of positive documents}
-  \label{fig:appendix4}
-\end{figure}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=1\textwidth]{images/table_setC.png}
-  \caption{Distribution of posts on the five aspects of analysis for false positives}
-  \label{fig:appendix5}
-\end{figure}
-
 % Bibliography
 \bibliographystyle{plainnat} % requires package natbib. An alternative is apalike
 \bibliography{literature}    % load file literature.bib
+
+
+
+\newacronym{cmpace}{CM-PaCE}{Classification Model for Posts about Configuration Errors}
+\newacronym{llm}{LLM}{Large Language Model}
+\newacronym{gpt}{GPT}{Generative Pre-trained Transformer}
+\newacronym{svm}{SVM}{Support Vector Machine}
+\newacronym{cot}{CoT}{Chain-of-Thought}
+
 
 \end{document}
